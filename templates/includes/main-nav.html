@@ -1,0 +1,43 @@
+<!-- Home menu -->
+<div class="collapse navbar-collapse text-center mt-2 mt-lg-0" id="main-nav">
+    <ul class="navbar-nav w-auto mx-auto">
+        <li class="nav-item">
+            <a class="font-weight-bold color-burgundy mx-lg-3 {% if request.path == home %} current-page {% endif %}"
+                href="{% url 'home' %}">
+                Home
+            </a>
+        </li>
+
+        <!-- Shop menu-->
+        <li class="nav-item dropdown">
+            <a class="font-weight-bold color-burgundy mx-lg-3 {% if request.path == products %} current-page {% endif %}"
+                href="#" id="shop-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Shop
+            </a>
+            <div class="dropdown-menu border-0">
+                <a href="" class="dropdown-item">All Items</a>
+                <a href="" class="dropdown-item">Espresso Beans</a>
+            </div>
+        </li>
+
+        <!-- About us menu-->
+        <li class="nav-item dropdown">
+            <a class="font-weight-bold color-burgundy mx-lg-3 {% if request.path == about %} current-page {% endif %}"
+                href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                About Us
+            </a>
+            <div class="dropdown-menu border-0">
+                <a href="" class="dropdown-item">Coffee Shop</a>
+                <a href="" class="dropdown-item">Flavours</a>
+            </div>
+        </li>
+
+        <!-- Contact menu -->
+        <li class="nav-item">
+            <a class="font-weight-bold color-burgundy mx-lg-3 {% if request.path == contact %} current-page {% endif %}"
+                href="">
+                Contact
+            </a>
+        </li>
+    </ul>
+</div>
