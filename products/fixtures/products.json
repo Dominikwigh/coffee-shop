@@ -28,9 +28,7 @@
         "price": "17.99",
         "image": "lavazza-oro-.jpeg",
         "image_url": null,
-        "rating": "3.00",
-        "review_count": "1",
-        "likes": []
+        "rating": "3.00"
       }
     },
     {
@@ -44,9 +42,7 @@
         "price": "15.99",
         "image": "intenso-coffee.jpeg",
         "image_url": null,
-        "rating": "4.00",
-        "review_count": "1",
-        "likes": []
+        "rating": "4.00"
       }
     },
     {
@@ -60,9 +56,7 @@
         "price": "20.49",
         "image": "Zoegas-Hazienda.jpeg",
         "image_url": null,
-        "rating": "5.00",
-        "review_count": "1",
-        "likes": []
+        "rating": "5.00"
       }
     },
     {
@@ -76,9 +70,7 @@
         "price": "20.49",
         "image": "Zoegas-Dellacasa.jpeg",
         "image_url": null,
-        "rating": null,
-        "review_count": "0",
-        "likes": []
+        "rating": null
       }
     },
     {
@@ -92,9 +84,7 @@
         "price": "18.00",
         "image": "Lavazza-cremaearoma.jpeg",
         "image_url": null,
-        "rating": "2.00",
-        "review_count": "0",
-        "likes": []
+        "rating": "2.00"
       }
     },
     {
@@ -108,9 +98,7 @@
         "price": "20.49",
         "image": "Zoegas-intenzo,jpeg",
         "image_url": null,
-        "rating": "4.00",
-        "review_count": "0",
-        "likes": []
+        "rating": "4.00"
       }
     },
     {
@@ -124,9 +112,7 @@
         "price": "15.99",
         "image": "coffee-crema.jpeg",
         "image_url": null,
-        "rating": null,
-        "review_count": "0",
-        "likes": []
+        "rating": null
       }
     },
     {
@@ -140,9 +126,7 @@
         "price": "15.99",
         "image": "classic-coffee.jpeg",
         "image_url": null,
-        "rating": null,
-        "review_count": "0",
-        "likes": []
+        "rating": null
       }
     },
     {
@@ -156,9 +140,7 @@
         "price": "15.99",
         "image": "espresso-coffee.jpg",
         "image_url": null,
-        "rating": null,
-        "review_count": "0",
-        "likes": []
+        "rating": null
       }
     },
       {
@@ -172,9 +154,7 @@
         "price": "49.99",
         "image": "philipsbarista.jpeg",
         "image_url": null,
-        "rating": null,
-        "review_count": "0",
-        "likes": []
+        "rating": null
       }
     },
       {
@@ -188,9 +168,7 @@
         "price": "29.99",
         "image": "boschcoffee.jpeg",
         "image_url": null,
-        "rating": null,
-        "review_count": "0",
-        "likes": []
+        "rating": null
       }
     }
   ]

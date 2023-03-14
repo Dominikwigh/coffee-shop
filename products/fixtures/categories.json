@@ -9,7 +9,7 @@
     },
     {
       "pk": 2,
-      "model": "prdoucts.category",
+      "model": "products.category",
       "fields": {
         "name": "Beans",
         "friendly_name": "Beans"
