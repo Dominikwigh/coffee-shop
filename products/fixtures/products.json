@@ -26,7 +26,7 @@
         "name": "Lavazza-Oro",
         "description": "The Lavazza coffee beans are a blend of Arabica from Brazil, RainForest certified. Enjoy a strong coffee with gourmet notes of cereals and dried fruit. 1kg.",
         "price": "17.99",
-        "image": "lavazza-oro-.jpeg",
+        "image": "lavazza-oro.jpeg",
         "image_url": null,
         "rating": "3.00"
       }
@@ -54,7 +54,7 @@
         "name": "Zoegas-Hazienda",
         "description": "The hazienda coffee bean is a blend of 100% Arabica from Central and South America. For lovers of a balanced coffee with tantalising aroma. 1kg coffee beans.",
         "price": "20.49",
-        "image": "Zoegas-Hazienda.jpeg",
+        "image": "zoegas-hazienda.jpeg",
         "image_url": null,
         "rating": "5.00"
       }
@@ -68,7 +68,7 @@
         "name": "Zoegas-Dellacasa",
         "description": "Discover this special Holiday Blend, a blend of balanced and sweet flavours with notes of herbs and maple. A high quality 100% Arabica coffee. Packaging: 190g coffee beans",
         "price": "20.49",
-        "image": "Zoegas-Dellacasa.jpeg",
+        "image": "zoegas-dellacasa.jpeg",
         "image_url": null,
         "rating": null
       }
@@ -82,7 +82,7 @@
         "name": "Lavazza-Cremaearoma",
         "description": "'Cremaearoma'is a blend of 85% Arabica & 15% Robusta. For a strong coffee with floral & chocolatey notes. Roasted in Italy. 1kg coffee beans.",
         "price": "18.00",
-        "image": "Lavazza-cremaearoma.jpeg",
+        "image": "lavazza-cremaearoma.jpeg",
         "image_url": null,
         "rating": "2.00"
       }
@@ -96,7 +96,7 @@
         "name": "Zoegas-Intenzo",
         "description": "Discover Intenzos's Guatemala Quetzalito coffee beans: a 100% Arabica from the Huehuetenango region in Panama. Enjoy a balanced and liquor-like coffee with notes of milk chocolate. 250g coffee beans.",
         "price": "20.49",
-        "image": "Zoegas-intenzo,jpeg",
+        "image": "zoegas-intenzo.jpeg",
         "image_url": null,
         "rating": "4.00"
       }
@@ -138,7 +138,7 @@
         "name": "Espresso-Coffee",
         "description": "Discover the Blend 189 from the Parisian roasting company Espresso. An organic blend of 100% Arabica from Brazil and Honduras. For an Italian-style espresso with notes of caramel and hazelnuts. 200g coffee beans.",
         "price": "15.99",
-        "image": "espresso-coffee.jpg",
+        "image": "espresso-coffee.jpeg",
         "image_url": null,
         "rating": null
       }
