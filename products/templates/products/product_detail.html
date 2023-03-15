@@ -58,10 +58,15 @@
                     </form>
                     <a href="{% url 'products' %}" class="small">
                         <i class="fas fa-chevron-left"></i>
-                        Continue Shopping
+                        Keep Shopping
                     </a>
                 </div>
             </div>
         </div>
     </div>
+{% endblock %}
+
+{% block postloadjs %}
+{{ block.super }}
+{% include 'products/includes/quantity-script.html' %}
 {% endblock %}
