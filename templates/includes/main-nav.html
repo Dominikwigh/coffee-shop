@@ -15,9 +15,9 @@
                 Shop
             </a>
             <div class="dropdown-menu border-0">
-                <a href="{% url 'products' %}" class="dropdown-item">All Items</a>
-                <a href="" class="dropdown-item">Beans</a>
-                <a href="" class="dropdown-item">Coffee Machines</a>
+                <a href="{% url 'products' %}?category=Coffee Machines,Beans" class="dropdown-item">All Items</a>
+                <a href="{% url 'products' %}?category=Beans" class="dropdown-item">Beans</a>
+                <a href="{% url 'products' %}?category=Coffee Machines" class="dropdown-item">Coffee Machines</a>
             </div>
         </li>
 
