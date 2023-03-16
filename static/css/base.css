@@ -86,6 +86,6 @@ body {
 
 .btt-link,
 .remove-item,
-.update-item  {
+.update-link  {
     cursor: pointer;
 }
