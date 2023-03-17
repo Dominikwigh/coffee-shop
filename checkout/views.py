@@ -1,6 +1,7 @@
 from django.shortcuts import render, redirect, reverse 
 from .forms import OrderForm
 
+
 def checkout(request):
     bag = request.session.get('bag', {})
     if not bag:
