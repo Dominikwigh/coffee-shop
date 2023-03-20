@@ -13,17 +13,6 @@ def all_products(request):
     query = None
     categories = None
 
-    # Add review
-
-    if request.method == 'POST' and request.user.is_authenticated:
-        stars = request.POST.get('stars', 3)
-        content = request.POST.get('content', '')
-
-        review = ProductReview.objects.create(product=product, user=request.user, stars=stars, content=content)
-
-        return redirect('product_detail', args=[product_id])
-
-
     if request.GET:
         if 'category' in request.GET:
             categories = request.GET['category'].split(',')
@@ -56,6 +45,21 @@ def product_detail(request, product_id):
     """ Detailed view of the products in the shop """
 
     product = get_object_or_404(Product, pk=product_id)
+    # Add review
+    if request.method == 'POST' and request.user.is_authenticated:
+        stars = request.POST.get('stars', 3)
+        content = request.POST.get('content', '')
+        if content:
+            reviews = ProductReview.objects.filter(created_by=request.user, product=product)
+            if reviews.count() > 0:
+                review = reviews.first()
+                review.stars = stars
+                review.content = content
+                review.save()
+            else:
+                review = ProductReview.objects.create(product=product, created_by=request.user, stars=stars, content=content)
+        return redirect('product_detail', product_id)
+
 
     context = {
             'product': product,
