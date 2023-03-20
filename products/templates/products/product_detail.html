@@ -28,6 +28,7 @@
                     {% endif %}
                 </div>
             </div>
+            <!--Product info -->
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="product-details-container mb-5 mt-md-5">
                     <p class="mb-0">{{ product.name }}</p>
@@ -35,7 +36,7 @@
                     <div class="row">
                         <div class="col">
                             {% if product.rating %}
-                            <p class="rating-icon card-description mb-2"><strong>Intensity:</strong> {{ product.rating }} /
+                            <p class="rating-icon card-description mb-2"><strong>Rating:</strong> {{ product.rating }} /
                                 5 <i class="fa-sharp fa-solid fa-mug-saucer"></i></p>
                             {% else %}
                             <p class="text-muted card-description mb-2">No Rating</p>
@@ -67,14 +68,31 @@
                             <input type="hidden" name="redirect_url" value="{{ request.path }}">
                         </div>
                     </form>
+                    <!-- Keep shopping button -->
+                    <a href="{% url 'products' %}" class="small">
+                        <i class="fas fa-chevron-left"></i>
+                        Keep Shopping
+                    </a>
                     <hr>
+                    <!--Review card-->
                     <div class="card">
                         <h4 class="card-header">Reviews</h4>
                         <div class="card-body bg-light">
+                            {% if not user.is_authenticated %}
+                                <div class="card-body">
+                                    <h4 class="card-subtitle mb-2" style="color: #000000">Would you like to review this product?
+                                    </h4>
+                                    <div class="card-body mb-3">
+                                        <p class="card-text register-text">Please either <a style="color:#0011ff"
+                                                href="{% url 'account_login' %}"><strong>sign in</strong></a> to your account or
+                                        <a style="color:#0011ff" href="{% url 'account_signup' %}" class="btn standard-btn register-btn">Register first.</p></a>
+                                    </div>
+                                </div>
+                                    {% else %}
                                     {% if request.user.is_authenticated %}
                                     <form method="post" action="." class="mt-6 mb-6 p-6 bg-gray-100 rounded-xl">
                                     {% csrf_token %}
-
+                                    {{ form.|crispy }}
                                     <div>
                                     <label>Rating</label><br>
                                         <select name="rating">
@@ -94,22 +112,21 @@
                                         <button class="btn btn-outline-dark">Submit</button>
                                     </div>
                                 </form>
-                            {% endif %}
+                            {% endif %} {% endif %}
+                            <!--Shows reviews -->
                             {% for review in product.reviews.all %}
                                 <div>
                                     <strong>Rating:</strong> {{ review.stars }}/5<br>
                                     <strong>Date:</strong> {{ review.date_added|date:"Y-m-d" }}<br>
                                     <strong>Comment:</strong><br>
                                     {{ review.content }}
+                                    <hr>
                                 </div>
+                            
                             {% endfor %}
                             </div>
                         </div>
                     </div>
-                    <a href="{% url 'products' %}" class="small">
-                        <i class="fas fa-chevron-left"></i>
-                        Keep Shopping
-                    </a>
                 </div>
             </div>
         </div>
