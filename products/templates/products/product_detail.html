@@ -97,7 +97,7 @@
                                     {% if request.user.is_authenticated %}
                                     <form method="post" style="margin-top: 1.3em;">
                                         {{ review_form | crispy }} {% csrf_token %}
-                                        <div class="field">
+                                        <div class="mb-3">
                                             <label>Stars</label>
                     
                                             <div clas="control">

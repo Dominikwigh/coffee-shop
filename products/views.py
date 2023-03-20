@@ -1,7 +1,7 @@
 from django.shortcuts import render, get_object_or_404, redirect, reverse
 from django.contrib import messages
 from django.db.models import Q
-from .models import Product, Category
+from .models import Product, Category, ProductReview
 from .forms import ProductForm
 from django.contrib.auth.decorators import login_required
 
@@ -12,6 +12,17 @@ def all_products(request):
     products = Product.objects.all()
     query = None
     categories = None
+
+    # Add review
+
+    if request.method == 'POST' and request.user.is_authenticated:
+        stars = request.POST.get('stars', 3)
+        content = request.POST.get('content', '')
+
+        review = ProductReview.objects.create(product=product, user=request.user, stars=stars, content=content)
+
+        return redirect('product_detail', args=[product_id])
+
 
     if request.GET:
         if 'category' in request.GET:
