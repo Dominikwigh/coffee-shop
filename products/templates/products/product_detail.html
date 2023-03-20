@@ -67,6 +67,67 @@
                             <input type="hidden" name="redirect_url" value="{{ request.path }}">
                         </div>
                     </form>
+                    <div class="container-fluid mt-2 mb-4">
+                        <div class="row">
+                            <!--- Container for product reviews -->
+                            <div class="col-md-6 card mb-4 mt-3 border-0">
+                                <div class="card-body">
+                                    <h3 class="card-subtitle mb-2 cust-review-h3" style="color: #000000">Customer Reviews
+                                    </h3>
+                                    <div class="card-text">
+                                    {% for review in reviews %}
+                                    <div class="card-body mt-3 mb-3">
+                                        <p class="card-text">{{ review.user }} said:
+                                        </p>
+                                        <p class="card-text"><i>
+                                                {{ review.message | linebreaks }}</i></p>
+                                        <span class="text-muted">
+                                            Date: {{ review.date_added }}
+                                            Stars: {{ review.stars }}
+                                        </span>
+                                        {{ review.content }}
+                                    </div>
+                                    {% empty %}
+                                    <div class="card-text">
+                                        No reviews yet..
+                                    </div>
+                                    {% endfor %}
+                                </div>
+                                <div>
+                                    {% if request.user.is_authenticated %}
+                                    <form method="post" style="margin-top: 1.3em;">
+                                        {{ review_form | crispy }} {% csrf_token %}
+                                        <div class="field">
+                                            <label>Stars</label>
+                    
+                                            <div clas="control">
+                                                <div class="select">
+                                                    <select name="stars">
+                                                        <option value="1">1</option>
+                                                        <option value="2">2</option>
+                                                        <option value="3" selected>3</option>
+                                                        <option value="4">4</option>
+                                                        <option value="5">5</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="field">
+                                            <label>Content</label>
+                    
+                                            <div class="control">
+                                                <textarea class="textarea" name="content"></textarea>
+                                            </div>
+                                        </div>
+                                        <button type="submit" class="standard-btn">Submit
+                                        </button>
+                                    </form>
+                                    {% else %}
+                                    <p>Please sign in to add review!</p>
+                        </div>
+                    </div>
+                    {% endif %}
+                         
                     <a href="{% url 'products' %}" class="small">
                         <i class="fas fa-chevron-left"></i>
                         Keep Shopping
