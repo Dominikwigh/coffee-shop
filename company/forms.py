@@ -1,5 +1,6 @@
 from django import forms
-from .models import Contact
+from .models import Contact, Newsletter
+from django.forms import ModelForm
 
 
 class ContactForm(forms.ModelForm):
