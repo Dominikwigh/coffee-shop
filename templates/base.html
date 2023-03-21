@@ -149,6 +149,101 @@
     </script>
     {% endblock %}
 
-    
+    <footer
+          class="text-center text-lg-start text-white"
+          style="background-color: #3e4551"
+          >
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Links -->
+      <section class="">
+        <div class="row">
+          <!-- Left grid -->
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">About</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              
+            </p>
+          </div>
+          <!-- Right grid -->
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Contact Us</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              
+            </p>
+          </div>
+      </section>
+      <hr class="mb-4" />
+
+      <!-- Section: CTA -->
+      <section>
+        <div class="d-flex justify-content-center align-items-center">
+            <form method="POST" action=""
+            class="col-12 col-md-7 col-lg-6 col-xl-3 form-inline footer-borders">
+            {% csrf_token %}
+            <div class="form-group mb-2 text-center mt-3">
+                <h5>To receive special offers, sign up to our newsletter here..
+                </h5>
+            </div>
+            <div class="form-group container mt-4 mb-4 text-center">
+                <label for="name" class="sr-only">Name</label>
+                <input type="text" class="form-control w-75" name="name" id="name"
+                    placeholder="Enter your Name...">
+                <br>
+                <label for="email" class="sr-only">Email</label>
+                <input type="email" class="form-control w-75 mt-2" name="email" id="email"
+                    placeholder="Enter your Email..">
+                <br>
+                <input type="hidden" name="redirect_url" value="{{ request.path }}">
+                <button type="submit" class="btn mt-4 mb-4 signup">Sign Up</button>
+            </div>
+        </form>
+      </div>
+      </section>
+      <hr class="mb-4" />
+      <!--  Social media section -->
+      <section class="mb-4 text-center">
+        <p>Connect with us on social media:</p>
+        <!-- Facebook -->
+        <a
+           class="btn btn-outline-light btn-floating m-1"
+           href="#!"
+           role="button"
+           ><i class="fab fa-facebook-f"></i
+          ></a>
+
+        <!-- Twitter -->
+        <a
+           class="btn btn-outline-light btn-floating m-1"
+           href="#!"
+           role="button"
+           ><i class="fab fa-twitter"></i
+          ></a>
+        <!-- Instagram -->
+        <a
+           class="btn btn-outline-light btn-floating m-1"
+           href="#!"
+           role="button"
+           ><i class="fab fa-instagram"></i
+          ></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div
+         class="text-center p-3"
+         style="background-color: rgba(0, 0, 0, 0.2)"
+         >
+      © 2023 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/"
+         >Coffee Shop</a
+        >
+    </div>
+    <!-- Copyright -->
+  </footer>
   </body>
 </html>

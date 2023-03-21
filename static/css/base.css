@@ -167,3 +167,10 @@ a {
 .allauth-form-inner-content a {
 	color: #448f9b; /* text-info */
 }
+
+.signup {
+    width: 8rem;
+    height: 3rem;
+    color: white;
+    background-color: black;
+}
