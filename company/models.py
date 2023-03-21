@@ -13,3 +13,16 @@ class Contact(models.Model):
     class Meta:
         verbose_name = 'Contact Form'
         ordering = ['-created_on']
+
+
+class Newsletter(models.Model):
+    """ Model for newletter """
+    name = models.CharField(max_length=100, blank=False, null=True)
+    email = models.EmailField(max_length=100, blank=False, null=True)
+    created_on = models.DateField(auto_now_add=True)
+
+    class Meta:
+        ordering = ['created_on']
+
+    def __str__(self):
+        return str(self.email)
