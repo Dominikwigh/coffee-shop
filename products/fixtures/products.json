@@ -23,7 +23,7 @@
       "fields": {
         "category": 1,
         "sku": null,
-        "name": "Lavazza-Oro",
+        "name": "Lavazza Oro",
         "description": "The Lavazza coffee beans are a blend of Arabica from Brazil, RainForest certified. Enjoy a strong coffee with gourmet notes of cereals and dried fruit. 1kg.",
         "price": "17.99",
         "image": "lavazza-oro.jpeg",
@@ -51,7 +51,7 @@
       "fields": {
         "category": 1,
         "sku": null,
-        "name": "Zoegas-Hazienda",
+        "name": "Zoegas Hazienda",
         "description": "The hazienda coffee bean is a blend of 100% Arabica from Central and South America. For lovers of a balanced coffee with tantalising aroma. 1kg coffee beans.",
         "price": "20.49",
         "image": "zoegas-hazienda.jpeg",
@@ -65,7 +65,7 @@
       "fields": {
         "category": 1,
         "sku": null,
-        "name": "Zoegas-Dellacasa",
+        "name": "Zoegas Dellacasa",
         "description": "Discover this special Holiday Blend, a blend of balanced and sweet flavours with notes of herbs and maple. A high quality 100% Arabica coffee. Packaging: 190g coffee beans",
         "price": "20.49",
         "image": "zoegas-dellacasa.jpeg",
@@ -79,7 +79,7 @@
       "fields": {
         "category": 1,
         "sku": null,
-        "name": "Lavazza-Cremaearoma",
+        "name": "Lavazza Cremaearoma",
         "description": "'Cremaearoma'is a blend of 85% Arabica & 15% Robusta. For a strong coffee with floral & chocolatey notes. Roasted in Italy. 1kg coffee beans.",
         "price": "18.00",
         "image": "lavazza-cremaearoma.jpeg",
@@ -93,7 +93,7 @@
       "fields": {
         "category": 1,
         "sku": null,
-        "name": "Zoegas-Intenzo",
+        "name": "Zoegas Intenzo",
         "description": "Discover Intenzos's Guatemala Quetzalito coffee beans: a 100% Arabica from the Huehuetenango region in Panama. Enjoy a balanced and liquor-like coffee with notes of milk chocolate. 250g coffee beans.",
         "price": "20.49",
         "image": "zoegas-intenzo.jpeg",
@@ -107,7 +107,7 @@
       "fields": {
         "category": 1,
         "sku": null,
-        "name": "Coffee-Crema",
+        "name": "Coffee Crema",
         "description": "These crema coffee beans by Italian coffee-maker crema are a blend of Arabica and Robusta that will offer you a very strong syrupy espresso with slightly spicy notes and a thick crema. 1kg",
         "price": "15.99",
         "image": "coffee-crema.jpeg",
@@ -121,7 +121,7 @@
       "fields": {
         "category": 1,
         "sku": null,
-        "name": "Classic-Coffee",
+        "name": "Classic Coffee",
         "description": "100% Arabica from Brazil, Guatemala, India & Mexico. For a strong espresso with fruity notes and a long aftertaste. Roasted in Italy. 250g coffee beans.",
         "price": "15.99",
         "image": "classic-coffee.jpeg",
@@ -135,7 +135,7 @@
       "fields": {
         "category": 1,
         "sku": null,
-        "name": "Espresso-Coffee",
+        "name": "Espresso Coffee",
         "description": "Discover the Blend 189 from the Parisian roasting company Espresso. An organic blend of 100% Arabica from Brazil and Honduras. For an Italian-style espresso with notes of caramel and hazelnuts. 200g coffee beans.",
         "price": "15.99",
         "image": "espresso-coffee.jpeg",
@@ -163,10 +163,24 @@
       "fields": {
         "category": 2,
         "sku": null,
-        "name": "Coffee-grinder",
+        "name": "Coffee Grinder",
         "description": "ENJOY THE PERFECT CUP OF FRESH COFFEE ― This Manual Coffee Grinder has a built-in adjustable ceramic burr with over 18 manual grind settings to ensure you have 100% precision & control over the coarseness of your grind",
         "price": "29.99",
         "image": "boschcoffee.jpeg",
+        "image_url": null,
+        "rating": null
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 12,
+      "fields": {
+        "category": 2,
+        "sku": null,
+        "name": "Milk Frother",
+        "description":"A light Froth The Aeroccino milk frother can transform milk into a light and velvety foam. You can pour the froth in at the speed you want, to control how it is mixed with your favourite Grand Cru.",
+        "price": "19.99",
+        "image": "milk-frother.jpeg",
         "image_url": null,
         "rating": null
       }
