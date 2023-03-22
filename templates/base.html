@@ -151,9 +151,7 @@
 
     <footer
           class="text-center text-lg-start text-white"
-          style="background-color: #3e4551"
-          >
-    <!-- Grid container -->
+          style="background-color: #3e4551">
     <div class="container p-4 pb-0">
       <!-- Section: Links -->
       <section class="">
@@ -177,12 +175,13 @@
       </section>
       <hr class="mb-4" />
 
-      <!-- Section: CTA -->
+      <!--Newsletter-->
       <section>
         <div class="d-flex justify-content-center align-items-center">
-            <form method="POST" action=""
-            class="col-12 col-md-7 col-lg-6 col-xl-3 form-inline footer-borders">
+            <form method="POST" action="{% url 'newsletter' %}"
+            class="col-12 col-md-7 col-lg-6 col-xl-3 form-inline">
             {% csrf_token %}
+            {{ form.|crispy }}
             <div class="form-group mb-2 text-center mt-3">
                 <h5>To receive special offers, sign up to our newsletter here..
                 </h5>
@@ -229,21 +228,14 @@
            ><i class="fab fa-instagram"></i
           ></a>
       </section>
-      <!-- Section: Social media -->
     </div>
-    <!-- Grid container -->
-
     <!-- Copyright -->
     <div
          class="text-center p-3"
-         style="background-color: rgba(0, 0, 0, 0.2)"
-         >
+         style="background-color: rgba(0, 0, 0, 0.2)">
       © 2023 Copyright:
-      <a class="text-white" href="https://mdbootstrap.com/"
-         >Coffee Shop</a
-        >
+      <a class="text-white" href="https://mdbootstrap.com/">Coffee Shop</a>
     </div>
-    <!-- Copyright -->
   </footer>
   </body>
 </html>

@@ -45,17 +45,17 @@ def newsletter(request):
             name = request.POST['name']
             email = request.POST['email']
             redirect_url = request.POST['redirect_url']
-            signed_up = Newsletter.object.values_list('email', flat=True)
+            signed_up = Newsletter.objects.values_list('email', flat=True)
 
-            if email in singed_up:
+            if email in signed_up:
                 messages.error(request, 'This email is alredy signed up!')
             else:
                 form = NewsletterForm(request.POST)
                 newsletter = form.save(commit=False)
-                newsletter.name = name 
+                newsletter.name = name
                 newsletter.email = email
                 newsletter.save()
-                newsletter.success(request, f'{email} has been successfully added to our mailing list')
+                messages.success(request, f'{email} has been successfully added to our mailing list')
             return redirect(redirect_url)
     except ValueError:
         messages.error(request, 'Please enter you rname and a valid email adress')
