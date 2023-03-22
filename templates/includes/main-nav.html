@@ -24,13 +24,9 @@
         <!-- About menu-->
         <li class="nav-item dropdown">
             <a class="font-weight-bold color-burgundy mx-lg-3 {% if request.path == about %} current-page {% endif %}"
-                href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                href="{% url 'about' %}">
                 About
             </a>
-            <div class="dropdown-menu border-0">
-                <a href="{% url 'about' %}" class="dropdown-item">About us</a>
-                <a href="" class="dropdown-item">Flavours</a>
-            </div>
         </li>
 
         <!-- Contact menu -->
