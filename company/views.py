@@ -4,6 +4,7 @@ from django.conf import settings
 from .forms import ContactForm, NewsletterForm
 from django.core.mail import send_mail
 from .models import Newsletter, Contact
+from django.views.generic import CreateView
 
 
 def contact(request, *args, **kwargs):
@@ -60,3 +61,12 @@ def newsletter(request):
     except ValueError:
         messages.error(request, 'Please enter you rname and a valid email adress')
         return redirect(redirect_url)
+
+
+def about(CreateView):
+    """ A view to show about page """
+    template_name = 'about.html'
+
+    def get(self, request, *args, **kwargs):
+        return render(request, self.template_name, {})
+
