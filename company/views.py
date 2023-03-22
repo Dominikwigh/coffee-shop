@@ -63,10 +63,10 @@ def newsletter(request):
         return redirect(redirect_url)
 
 
-def about(CreateView):
+class about(CreateView):
     """ A view to show about page """
-    template_name = 'about.html'
+
+    template_name = 'about/about.html'
 
     def get(self, request, *args, **kwargs):
         return render(request, self.template_name, {})
-
