@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 html {
-    width:100%;
+    width: 100%;
+    height: 100%;
 }
 .text {
    color: chocolate;
@@ -180,6 +181,16 @@ a {
     height: 3rem;
     color: white;
 }
+.signupbutton {
+    color: white;
+    background-color: black;
+}
+
+.form-inline {
+    width:100%;
+    margin-right: 130px;
+    
+}
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
@@ -345,6 +356,11 @@ a {
 
     .form-control {
         width: 100px;
+    }
+    .form-inline {
+        width:100%;
+        margin-left: 180px;
+        
     }
 
 }
