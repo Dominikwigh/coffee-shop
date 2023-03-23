@@ -293,10 +293,6 @@ a {
         left: 0;
         z-index: 1030;
     }
-
-    .header-container {
-        padding-top: 164px;
-    }
 }
 
 /* pad the top a bit when navbar is collapsed on mobile */
@@ -356,11 +352,6 @@ a {
 
     .form-control {
         width: 100px;
-    }
-    .form-inline {
-        width:100%;
-        margin-left: 180px;
-        
     }
 
 }

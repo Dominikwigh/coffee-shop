@@ -2,12 +2,10 @@
 {% load static %}
 {% load bag_tools %}
 {% block extra_title %} Shopping cart {% endblock %}
-
-
 <!-- Shopping bag-->
 {% block content %}
-    <div class="overlay"></div>
-    <div class="container mb-2">
+<div class="overlay"></div>
+<div class="container mb-2">
     <div class="row">
         <div class="col">
             <hr>
@@ -15,11 +13,12 @@
             <hr>
         </div>
     </div>
+
     <div class="row">
         <div class="col">
             {% if bag_items %}
                 <div class="table-responsive rounded">
-                    <table class="table table-sm table-responsive">
+                            <table class="table table-sm table-responsive">
                                 <thead class="thead-dark">
                                     <tr>
                                         <th>Product</th>
@@ -109,6 +108,8 @@
 
 
 {% endblock %}
+
+
 
 {% block postloadjs %}
 {{ block.super }}
