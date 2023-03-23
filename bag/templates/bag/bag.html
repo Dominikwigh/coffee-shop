@@ -53,6 +53,7 @@
                                     <td class="py-3">
                                         <p class="my-0">${{ item.product.price }}</p>
                                     </td>
+                                    <!--Quantity form -->
                                     <td class="py-3">
                                         <form class="form update-form" method="POST" action="{% url 'adjust_bag' item.item_id %}">
                                             {% csrf_token %}
@@ -109,8 +110,11 @@
                 </a>
             {% endif %}
         </div>
+    
     </div>
 </div>
+
+
 {% endblock %}
 
 {% block postloadjs %}
