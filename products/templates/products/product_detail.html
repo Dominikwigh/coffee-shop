@@ -11,7 +11,7 @@
     </div>
 {% endblock %}
 
-
+<!--Product image -->
 {% block content %}
     <div class="overlay"></div>
     <div class="container-fluid">
@@ -90,6 +90,7 @@
                                     </div>
                                 </div>
                                     {% else %}
+                                    <!--Review form -->
                                     {% if request.user.is_authenticated %}
                                     <form method="post" action="." class="mt-6 mb-6 p-6 bg-gray-100 rounded-xl">
                                     {% csrf_token %}
