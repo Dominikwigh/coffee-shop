@@ -121,7 +121,9 @@
                             {% for review in product.reviews.all %}
                                 <div>
                                     <strong>Rating:</strong> {{ review.stars }}/5<br>
+                                    <br>
                                     <strong>Date:</strong> {{ review.date_added|date:"Y-m-d" }}<br>
+                                    <br>
                                     <strong>Comment:</strong><br>
                                     {{ review.content }}
                                     <hr>
