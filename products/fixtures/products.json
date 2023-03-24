@@ -26,7 +26,7 @@
         "name": "Lavazza Oro",
         "description": "The Lavazza coffee beans are a blend of Arabica from Brazil, RainForest certified. Enjoy a strong coffee with gourmet notes of cereals and dried fruit. 1kg.",
         "price": "17.99",
-        "image": "https://res.cloudinary.com/dztdhnhl9/image/upload/v1679652594/media/lavazza-oro_un8qeb.jpg",
+        "image": "lavazza-oro.jpg",
         "image_url": null,
         "rating": "3.00"
       }
@@ -40,7 +40,7 @@
         "name": "Intenso",
         "description": "Intenso coffee beans consists of a blend of 80% Arabica and 20% Robusta (Colombia, Brazil, Guatemala, Costa Rica). For a very strong espresso with a good crema and notes of cocoa 1kg.",
         "price": "15.99",
-        "image": "https://res.cloudinary.com/dztdhnhl9/image/upload/v1679652594/media/intenso-coffee_eqfelf.jpg",
+        "image": "intenso-coffee.jpg",
         "image_url": null,
         "rating": "4.00"
       }
@@ -54,7 +54,7 @@
         "name": "Zoegas Hazienda",
         "description": "The hazienda coffee bean is a blend of 100% Arabica from Central and South America. For lovers of a balanced coffee with tantalising aroma. 1kg coffee beans.",
         "price": "20.49",
-        "image": "https://res.cloudinary.com/dztdhnhl9/image/upload/v1679652595/media/zoegas-hazienda_kjia8d.jpg",
+        "image": "zoegas-hazienda.jpg",
         "image_url": null,
         "rating": "5.00"
       }
@@ -68,7 +68,7 @@
         "name": "Zoegas Dellacasa",
         "description": "Discover this special Holiday Blend, a blend of balanced and sweet flavours with notes of herbs and maple. A high quality 100% Arabica coffee. Packaging: 190g coffee beans",
         "price": "20.49",
-        "image": "https://res.cloudinary.com/dztdhnhl9/image/upload/v1679652595/media/zoegas-dellacasa_yuuvl5.jpg",
+        "image": "zoegas-dellacasa.jpg",
         "image_url": null,
         "rating": null
       }
@@ -82,7 +82,7 @@
         "name": "Lavazza Cremaearoma",
         "description": "'Cremaearoma'is a blend of 85% Arabica & 15% Robusta. For a strong coffee with floral & chocolatey notes. Roasted in Italy. 1kg coffee beans.",
         "price": "18.00",
-        "image": "https://res.cloudinary.com/dztdhnhl9/image/upload/v1679652595/media/lavazza-cremaearoma_g2du6c.jpg",
+        "image": "lavazza-cremaearoma.jpg",
         "image_url": null,
         "rating": "2.00"
       }
@@ -96,7 +96,7 @@
         "name": "Zoegas Intenzo",
         "description": "Discover Intenzos's Guatemala Quetzalito coffee beans: a 100% Arabica from the Huehuetenango region in Panama. Enjoy a balanced and liquor-like coffee with notes of milk chocolate. 250g coffee beans.",
         "price": "20.49",
-        "image": "https://res.cloudinary.com/dztdhnhl9/image/upload/v1679652594/media/zoegas-intenzo_f2mqj1.jpg",
+        "image": "zoegas-intenzo.jpg",
         "image_url": null,
         "rating": "4.00"
       }
@@ -110,7 +110,7 @@
         "name": "Coffee Crema",
         "description": "These crema coffee beans by Italian coffee-maker crema are a blend of Arabica and Robusta that will offer you a very strong syrupy espresso with slightly spicy notes and a thick crema. 1kg",
         "price": "15.99",
-        "image": "https://res.cloudinary.com/dztdhnhl9/image/upload/v1679652595/media/coffee-crema_hj9dm6.jpg",
+        "image": "coffee-crema.jpg",
         "image_url": null,
         "rating": null
       }
@@ -124,7 +124,7 @@
         "name": "Classic Coffee",
         "description": "100% Arabica from Brazil, Guatemala, India & Mexico. For a strong espresso with fruity notes and a long aftertaste. Roasted in Italy. 250g coffee beans.",
         "price": "15.99",
-        "image": "https://res.cloudinary.com/dztdhnhl9/image/upload/v1679652594/media/classic-coffee_b19fyj.jpg",
+        "image": "classic-coffee.jpg",
         "image_url": null,
         "rating": null
       }
@@ -138,7 +138,7 @@
         "name": "Espresso Coffee",
         "description": "Discover the Blend 189 from the Parisian roasting company Espresso. An organic blend of 100% Arabica from Brazil and Honduras. For an Italian-style espresso with notes of caramel and hazelnuts. 200g coffee beans.",
         "price": "15.99",
-        "image": "https://res.cloudinary.com/dztdhnhl9/image/upload/v1679652595/media/espresso-coffee_myhzja.jpg",
+        "image": "espresso-coffee.jpg",
         "image_url": null,
         "rating": null
       }
@@ -152,7 +152,7 @@
         "name": "Espresso Machine ",
         "description": "Espresso Machine is an electric moka pot with 6 or 3 cups capacity and digital control. This espresso maker is equipped with a 24 hour programmable timer: You can program the Moka the day before and you will find your coffee ready when you wake up. You can of course prepare your coffee immediately by using the manual selection.",
         "price": "49.99",
-        "image": "https://res.cloudinary.com/dztdhnhl9/image/upload/v1679652595/media/philipsbarista_bdfuro.jpg",
+        "image": "philipsbarista.jpg",
         "image_url": null,
         "rating": null
       }
@@ -166,7 +166,7 @@
         "name": "Coffee Grinder",
         "description": "ENJOY THE PERFECT CUP OF FRESH COFFEE ― This Manual Coffee Grinder has a built-in adjustable ceramic burr with over 18 manual grind settings to ensure you have 100% precision & control over the coarseness of your grind",
         "price": "29.99",
-        "image": "https://res.cloudinary.com/dztdhnhl9/image/upload/v1679652595/media/boschcoffee_hrc9wq.jpg",
+        "image": "boschcoffee.jpg",
         "image_url": null,
         "rating": null
       }
@@ -180,7 +180,7 @@
         "name": "Milk Frother",
         "description":"A light Froth The Aeroccino milk frother can transform milk into a light and velvety foam. You can pour the froth in at the speed you want, to control how it is mixed with your favourite Grand Cru.",
         "price": "19.99",
-        "image": "https://res.cloudinary.com/dztdhnhl9/image/upload/v1679652594/media/milk-frother_ktpojp.jpg",
+        "image": "milk-frother.jpg",
         "image_url": null,
         "rating": null
       }
