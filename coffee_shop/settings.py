@@ -31,7 +31,11 @@ CLOUDINARY_STORAGE = {
 SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = 'DEVELOPMENT' in os.environ
+if os.environ.get("DEVELOPMENT"):
+    development = True
+else:
+    development = False
+DEBUG = development
 
 ALLOWED_HOSTS = ['coffee-shop2023.herokuapp.com', 'localhost']
 
