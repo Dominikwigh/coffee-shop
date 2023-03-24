@@ -59,7 +59,7 @@ def newsletter(request):
                 messages.success(request, f'{email} has been successfully added to our mailing list')
             return redirect(redirect_url)
     except ValueError:
-        messages.error(request, 'Please enter you rname and a valid email adress')
+        messages.error(request, 'Please enter your name and a valid email adress')
         return redirect(redirect_url)
 
 
