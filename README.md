@@ -15,3 +15,36 @@ As well as allow purchases of products themed around coffee, making reviews for 
 Visitors to the site may also subscribe to a newsletter. And receive an confirmation email after purchsing. 
 
 The projects purpose is to enable customers to make purchases, register for an account, and review products while enjoying a nice user experience and user interface.
+
+## User Experience
+
+User experience has been designed with a minimalistic, clean, and professional look. A light-colored background and bold dark colors for text as well as sharp images portray the purpose and goal of the e-commerce-site.
+The visitors to Coffee Shop is most likely someone who enjoys making nice coffee at home. Who enjoys a nice espresso, or a pour over coffee from whole beans. A visitor to Coffee shop is also someone who most likely enjoys reading about coffee.
+
+
+Here is a list of my User Stories...
+* 1. As a site user i can view a list of products so that i can select some to purchase.
+* 2. As a site user i can view individual products so that i can identify the description.
+* 3. As a site user i can have a personal account so that i can view my profile.
+* 4. As a site user i can easily login or logout so that i can access my account information.
+* 5. As a site user i can have a personalized user profile so that i can view my order history.
+* 6. As a site user i can recover my password if i forget it so that i can recover access to my account.
+* 7. As a site user i can get an email after registering so that i know that my registration was successful.
+* 8. As a site user i can see product reviews so that i can see which product is the most popular.
+* 9. As a site user i can add items to my cart so that i can purchase them later.
+* 10. As a site user i can view a specific category so that i can quickly find the product iam looking for.
+* 11. As a site user i can search for products so that i can easily find what iam looking for.
+* 12. As a site user i can delete an item from my cart so that i can change product to buy.
+* 13. As a site user i can edit the amount of product in my cart so that i can easily decrement or increment products that i want to buy.
+* 14. As a site user i can edit the amount of products in the shopping bag so that its easy to edit.
+* 15. As a site user i can view my selected items in the bag so that i know what i am going to purchase.
+* 16. As a site user i can enter my payment information easily so that i can checkout quickly.
+* 17. As a site user i can view a order confirmation after purchase so that i know that my order went through.
+* 18. As a site user i can receive a order confirmation so that i know my purchase went through.
+* 19. As a site owner i can provide a contact form so that users can provide feedback or request products.
+* 20. As a site owner i can have my customers signing up for a newsletter so that they can receive a emails about site news.
+* 21. As a site admin i can add products so that i can update my inventory.
+* 22. As a admin i can edit my products so that i can update them in the future.
+* 23. As a admin i can be. able to delete products so that i can remove old products.
+* 24. As a site user i can be able to see the stores adress so that i can visit them.
+* 25. As a site user i can read about the company so that i can get familiar with the company
