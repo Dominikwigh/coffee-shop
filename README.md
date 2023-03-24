@@ -47,4 +47,31 @@ Here is a list of my User Stories...
 * 22. As a admin i can edit my products so that i can update them in the future.
 * 23. As a admin i can be. able to delete products so that i can remove old products.
 * 24. As a site user i can be able to see the stores adress so that i can visit them.
-* 25. As a site user i can read about the company so that i can get familiar with the company
+* 25. As a site user i can read about the company so that i can get familiar with the company.
+
+## Project Design 
+
+### Color Scheme 
+![IMG ALT DESC HERE](IMG PATH HERE)
+* The idea for the site is minimalistic and clean, the project is partly inspired by Code Institutes "Boutique Ado" with some finishing styles that i've added. 
+
+* The product images i have taken from Link!!! with permission. 
+
+### Wireframes 
+I took a lot of inspiration from Code Institutes Boutique Ado walktrough project. 
+Homepage Mockup:
+![IMG ALT DESC HERE](IMG PATH HERE)
+
+Product page mockup: 
+![IMG ALT DESC HERE](IMG PATH HERE)
+
+### Fonts 
+Google Fonts has been used to provide free fonts for commercial use. The fonts selected have been chosen for differing reasons whilst still complementing each other. 
+
+### Database Schema 
+The Database schema is as below: 
+![IMG ALT DESC HERE](IMG PATH HERE)
+
+
+### Web Marketing Startegy 
+
