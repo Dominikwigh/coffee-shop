@@ -126,3 +126,12 @@ Each card provides brief info on the product, and the user is able to find out m
 The bag page provides an overview of all of the items added by the user. The information aims to confirm what the user has selected with a table of information about the product and a supporting image. The price of all items is calculated and provided as a 'subtotal' with the delivery charge if the price is not over 40 dollars. Users can change quantity of a product or remove a product from the shopping bag, before proceeding to checkout. Users also have the option to keep shooping via a button located at the bottom. 
 ![IMG ALT DESC HERE](IMG PATH HERE)
 
+### Checkout 
+
+This page enables the user to complete their transaction. It is split in to two sections with delivery and billing on the left side and an overview of the items that are about to be purchased on the right. Here stripe have been implemented to manage transactions and collect payments. The test purchases have been enabled using the following card details. 
+![IMG ALT DESC HERE](IMG PATH HERE)
+![IMG ALT DESC HERE](IMG PATH HERE)
+
+When completing a transaction, users are automatically navigated to tthe checkout success page. Which provides a confirmation. The confirmation is also emailed to the user. 
+
+![IMG ALT DESC HERE](IMG PATH HERE)
