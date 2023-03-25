@@ -108,3 +108,5 @@ To increase traffic to the website, a facebook page has been built that will dis
 * the homepage has several features, a nice background image with a button that is linked to the products page, containing all the products. Its easy for the user to access the products directly after opening th website. 
 ![IMG ALT DESC HERE](IMG PATH HERE)
 
+### Footer 
+The footer offers a nice dark colour to distinguishing the top from the bottom. The footer enables quick access to key information to improve the users journey on the website. It also includes the businesses socials. 
