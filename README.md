@@ -147,3 +147,13 @@ Accessed through the 'My Account' link in the navbar, a registered and signed-in
 Users can contact the business via a form that can be navigated to via the link in the navbar. A short and simple form can be completed. For the user to leave their concerns. When a user submits the form a success message is shown at the top. 
 
 ![IMG ALT DESC HERE](IMG PATH HERE)
+
+### About Page 
+
+This page consists of the background of the company, when the owner traveled to Italy and traveld back to the UK later with some coffee. 
+![IMG ALT DESC HERE](IMG PATH HERE)
+
+### Admin - Product Management
+This feature is enabled for super users only.
+With this role based permission setting you can perform CRUD (Create, Review, Update and Delete) products from either the front or back end. The front end product management incorporates Bootstrap and Crispy to present clean forms to either Add, Edit or Delete a product. Super users can review a product within the Product Details page - which when signed-in as a super user presents to links to either 'Edit' or 'Delete' and item. Otherwise this user type can add a product through the 'Account' drop-down nav menu, and selecting 'Add Products'. 
+![IMG ALT DESC HERE](IMG PATH HERE)
