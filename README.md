@@ -112,6 +112,10 @@ aswell as a about page, and contact page.
 ![IMG ALT DESC HERE](IMG PATH HERE)
 
 ### Footer 
-The footer offers a nice dark colour to distinguishing the top from the bottom. The footer enables quick access to key information to improve the users journey on the website. It also includes the businesses socials. 
+* The footer offers a nice dark colour to distinguishing the top from the bottom. The footer enables quick access to key information to improve the users journey on the website. It also includes the businesses socials. 
 
 ### Products & Customer reviews 
+* Using a Bootstrap grid, the products are set out in rows with each product aligned to a card. 
+Each card provides brief info on the product, and the user is able to find out more buy clicking on th eproduct image. 
+![IMG ALT DESC HERE](IMG PATH HERE)
+* Clicking through provides more information on the specific product with options to add the item to their bag or update quantity. This page also promotes feedback from users through Customer Reviews. Only users who are registered can leave a review so there is a handy link to encourage this feature. Reviews are published immediately to provide a feeling of success to the user. The business assess reviews regularly to ensure there is nothing inflammatory - at which point they could be deleted through Django Admin. (The Reviews feature is the second of the three oginal models).
