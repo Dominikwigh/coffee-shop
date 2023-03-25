@@ -97,3 +97,14 @@ I have used Google Maps within an iframe inside the footer to promote the physic
 To increase traffic to the website, a facebook page has been built that will display information about the products and business.
 ![IMG ALT DESC HERE](IMG PATH HERE)
 
+## Project Features 
+
+### Navbar
+* I have used a Bootstrap 4 fixed navbar that remians on all pages. Its easy to navigate with a clear font and design. While collapsing to mobile view it changes to a burger menu. 
+![IMG ALT DESC HERE](IMG PATH HERE)
+
+### Homepage 
+
+* the homepage has several features, a nice background image with a button that is linked to the products page, containing all the products. Its easy for the user to access the products directly after opening th website. 
+![IMG ALT DESC HERE](IMG PATH HERE)
+
