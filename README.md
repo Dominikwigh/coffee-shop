@@ -141,3 +141,9 @@ When completing a transaction, users are automatically navigated to tthe checkou
 Accessed through the 'My Account' link in the navbar, a registered and signed-in user can update their saved delivery details and view order history. Each transaction is a row with a table. The 'Order Number' can be clicked to open the order confirmation page.
 
 ![IMG ALT DESC HERE](IMG PATH HERE)
+
+### Contact Page 
+
+Users can contact the business via a form that can be navigated to via the link in the navbar. A short and simple form can be completed. For the user to leave their concerns. When a user submits the form a success message is shown at the top. 
+
+![IMG ALT DESC HERE](IMG PATH HERE)
