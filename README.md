@@ -119,3 +119,10 @@ aswell as a about page, and contact page.
 Each card provides brief info on the product, and the user is able to find out more buy clicking on th eproduct image. 
 ![IMG ALT DESC HERE](IMG PATH HERE)
 * Clicking through provides more information on the specific product with options to add the item to their bag or update quantity. This page also promotes feedback from users through Customer Reviews. Only users who are registered can leave a review so there is a handy link to encourage this feature. Reviews are published immediately to provide a feeling of success to the user. The business assess reviews regularly to ensure there is nothing inflammatory - at which point they could be deleted through Django Admin. (The Reviews feature is the second of the three oginal models).
+![IMG ALT DESC HERE](IMG PATH HERE)
+
+### Shopping Bag
+
+The bag page provides an overview of all of the items added by the user. The information aims to confirm what the user has selected with a table of information about the product and a supporting image. The price of all items is calculated and provided as a 'subtotal' with the delivery charge if the price is not over 40 dollars. Users can change quantity of a product or remove a product from the shopping bag, before proceeding to checkout. Users also have the option to keep shooping via a button located at the bottom. 
+![IMG ALT DESC HERE](IMG PATH HERE)
+
