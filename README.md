@@ -81,6 +81,9 @@ Building on the insights gained as part of the Design Thinking phase. This proje
 
 SEO is key to driving traffic from a browser search like Google to the website. To help improve the search engine ranking I ensured each web page has it's own title, and the site carries meta tags for a description and keywords which encapsulate the general content and focus of this B2C site.
 
+#### Sitemap.xml / Robots.txt 
+I have created a sitemap.xml and robot.txt to help search engines locate my website. And to keep the website safe. 
+
 #### Newsletter 
 
 To allow the business to communicate with their customers to promote products and events through digital marketing, i have created a newsletter (One of three original models). The newsletter can be found at the bottom of the site, in the footer. Once the emial address is submitted a success message is presented to notify that the user is signed up. If by chance the user trys to sign up agian, the user is notifyied that their emial is already signed up.
@@ -88,3 +91,9 @@ To allow the business to communicate with their customers to promote products an
 #### Coffee shop location 
 
 I have used Google Maps within an iframe inside the footer to promote the physical store location to show customers how they can physicaly experience the businesses coffee.
+
+
+#### Facebook Page 
+To increase traffic to the website, a facebook page has been built that will display information about the products and business.
+![IMG ALT DESC HERE](IMG PATH HERE)
+
