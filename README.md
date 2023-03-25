@@ -135,3 +135,9 @@ This page enables the user to complete their transaction. It is split in to two 
 When completing a transaction, users are automatically navigated to tthe checkout success page. Which provides a confirmation. The confirmation is also emailed to the user. 
 
 ![IMG ALT DESC HERE](IMG PATH HERE)
+
+### User Profile 
+
+Accessed through the 'My Account' link in the navbar, a registered and signed-in user can update their saved delivery details and view order history. Each transaction is a row with a table. The 'Order Number' can be clicked to open the order confirmation page.
+
+![IMG ALT DESC HERE](IMG PATH HERE)
