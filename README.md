@@ -75,3 +75,7 @@ The Database schema is as below:
 
 ### Web Marketing Startegy 
 
+Building on the insights gained as part of the Design Thinking phase. This project has the business model of Business to customer as the business is selling directly to the end user. 
+
+#### Search Engine Optimisation (SEO)
+SEO is key to driving traffic from a browser search like Google to the website. To help improve the search engine ranking I ensured each web page has it's own title, and the site carries meta tags for a description and keywords which encapsulate the general content and focus of this B2C site.
