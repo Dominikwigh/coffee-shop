@@ -157,3 +157,9 @@ This page consists of the background of the company, when the owner traveled to 
 This feature is enabled for super users only.
 With this role based permission setting you can perform CRUD (Create, Review, Update and Delete) products from either the front or back end. The front end product management incorporates Bootstrap and Crispy to present clean forms to either Add, Edit or Delete a product. Super users can review a product within the Product Details page - which when signed-in as a super user presents to links to either 'Edit' or 'Delete' and item. Otherwise this user type can add a product through the 'Account' drop-down nav menu, and selecting 'Add Products'. 
 ![IMG ALT DESC HERE](IMG PATH HERE)
+
+### Log in/Log out 
+The login page is consist of a form wher ethe user has to enter either username or email and then password. When signed in the user gets a success message.
+![IMG ALT DESC HERE](IMG PATH HERE)
+When logging out the user is shown a log out button on a new page with a question to definetly sign out. And when signed out the user is redirected to the home page and gets an success message. 
+![IMG ALT DESC HERE](IMG PATH HERE)
