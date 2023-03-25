@@ -145,7 +145,7 @@ Accessed through the 'My Account' link in the navbar, a registered and signed-in
 ### Contact Page 
 
 Users can contact the business via a form that can be navigated to via the link in the navbar. A short and simple form can be completed. For the user to leave their concerns. When a user submits the form a success message is shown at the top. 
-
+(One of three original models)
 ![IMG ALT DESC HERE](IMG PATH HERE)
 
 ### About Page 
@@ -162,4 +162,8 @@ With this role based permission setting you can perform CRUD (Create, Review, Up
 The login page is consist of a form wher ethe user has to enter either username or email and then password. When signed in the user gets a success message.
 ![IMG ALT DESC HERE](IMG PATH HERE)
 When logging out the user is shown a log out button on a new page with a question to definetly sign out. And when signed out the user is redirected to the home page and gets an success message. 
+![IMG ALT DESC HERE](IMG PATH HERE)
+
+### Webhooks 
+When a order is successfully completed its is shown in the webhooks section on stripe.com. 
 ![IMG ALT DESC HERE](IMG PATH HERE)
