@@ -3,7 +3,9 @@ from .forms import OrderForm
 
 
 class TestOrderForm(TestCase):
+    """ Test order form work with required fields """
     def test_full_name_is_required(self):
+        """ Test if form submits without full_name field completed """
         form = OrderForm({
             'full_name': '',
             'email': 'test@test.com',
@@ -20,6 +22,7 @@ class TestOrderForm(TestCase):
             form.errors['full_name'][0], 'This field is required.')
 
     def test_email_is_required(self):
+        """ Test if form submits without email field completed """
         form = OrderForm({
             'full_name': 'testname',
             'email': '',
@@ -53,6 +56,7 @@ class TestOrderForm(TestCase):
             form.errors['phone_number'][0], 'This field is required.')
 
     def test_country_is_required(self):
+        """ Test if form submits without country field completed """
         form = OrderForm({
             'full_name': 'testname',
             'email': 'test@test.com',
@@ -68,6 +72,7 @@ class TestOrderForm(TestCase):
             form.errors['country'][0], 'This field is required.')
 
     def test_town_or_city_is_required(self):
+        """ Test if form submits without town/city field completed """
         form = OrderForm({
             'full_name': 'testname',
             'email': 'test@test.com',
@@ -83,6 +88,7 @@ class TestOrderForm(TestCase):
             form.errors['town_or_city'][0], 'This field is required.')
 
     def test_street_address1_is_required(self):
+        """ Test if form submits without street adress1 field completed """
         form = OrderForm({
             'full_name': 'testname',
             'email': 'test@test.com',
@@ -98,6 +104,7 @@ class TestOrderForm(TestCase):
             form.errors['street_address1'][0], 'This field is required.')
 
     def test_fields_are_explicit_in_form_metaclass(self):
+        """ Check that the forms visible are the right ones """
         form = OrderForm()
         self.assertEqual(form.Meta.fields, (
             'full_name', 'email', 'phone_number', 'street_address1',
