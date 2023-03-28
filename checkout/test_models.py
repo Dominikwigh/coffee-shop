@@ -4,7 +4,7 @@ from products.models import Product
 from .models import Order
 
 
-class testOrderModels(TestCase):
+class TestOrderModels(TestCase):
 
     def setup(self):
         Order.objects.create(
@@ -26,3 +26,11 @@ class testOrderModels(TestCase):
         self.assertEqual(grand_total, 100)
 
 
+class TestOrdelineItemmodels(TestCase):
+    def test_order_line_item_string(self):
+        product = Product.objects.create(price=50.00)
+        order = Order.objects.create(order_number='50')
+        expected_output = 'on order 50'
+        self.assertEqual(str(
+            f'{product}on order {order.order_number}'),
+            expected_output)
