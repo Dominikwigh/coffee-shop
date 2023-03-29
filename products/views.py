@@ -56,10 +56,19 @@ def product_detail(request, product_id):
                 review.stars = stars
                 review.content = content
                 review.save()
+                messages.success(
+                    request, "You have successfully added a review!!"
+                    )
             else:
                 review = ProductReview.objects.create(product=product, created_by=request.user, stars=stars, content=content)
+                messages.success(
+                    request, "You have successfully added a review!!"
+                )
+        else:
+            messages.error(
+                    request, "There was an error adding you review, please try again!"
+                    )
         return redirect('product_detail', product_id)
-
 
     context = {
             'product': product,
