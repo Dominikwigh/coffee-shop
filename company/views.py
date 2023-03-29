@@ -40,14 +40,14 @@ def contact(request, *args, **kwargs):
 
 def newsletter(request):
     """ Allows user to signup for a newsletter
-     and check if user is alredy in database """
+     and check if user is already in database """
     try:
         if request.method == 'POST':
             name = request.POST['name']
             email = request.POST['email']
             redirect_url = request.POST['redirect_url']
             signed_up = Newsletter.objects.values_list('email', flat=True)
-
+            
             if email in signed_up:
                 messages.error(request, 'This email is alredy signed up!')
             else:
