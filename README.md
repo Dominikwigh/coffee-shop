@@ -175,6 +175,9 @@ The login page is consist of a form wher ethe user has to enter either username 
 When logging out the user is shown a log out button on a new page with a question to definetly sign out. And when signed out the user is redirected to the home page and gets an success message. 
 ![IMG ALT DESC HERE](IMG PATH HERE)
 
+### Reset Password
+Users can rest their password if they have an account by entering their email address that is connected to their profile account. Once this is done users will receive confirmation that an email has been sent to them in order to reset their password on their account securely. If users change their mind they can select the 'Back to Login' option.
+
 ### Webhooks 
 When a order is successfully completed its is shown in the webhooks section on stripe.com. 
 ![IMG ALT DESC HERE](IMG PATH HERE)
