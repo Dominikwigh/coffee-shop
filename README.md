@@ -21,7 +21,11 @@ The projects purpose is to enable customers to make purchases, register for an a
 User experience has been designed with a minimalistic, clean, and professional look. A light-colored background and bold dark colors for text as well as sharp images portray the purpose and goal of the e-commerce-site.
 The visitors to Coffee Shop is most likely someone who enjoys making nice coffee at home. Who enjoys a nice espresso, or a pour over coffee from whole beans. A visitor to Coffee shop is also someone who most likely enjoys reading about coffee.
 
-
+## Agile Development 
+The plan for this project was carried out using the Agile Methodology in github. User Stories were created using issues on git hub. Each user story explicitly explains the purpose of the issues. They are prioritised using gitHub labels with different colors.
+Each story was assigned a classification of Must-Have, Should-Have, Could-Have or Won't Have.
+Some tasks were completed quicker than others but overall every thing went good. With the project being completed ahead of schedule. 
+ 
 Here is a list of my User Stories...
 * 1. As a site user i can view a list of products so that i can select some to purchase.
 * 2. As a site user i can view individual products so that i can identify the description.
@@ -48,6 +52,13 @@ Here is a list of my User Stories...
 * 23. As a admin i can be. able to delete products so that i can remove old products.
 * 24. As a site user i can be able to see the stores adress so that i can visit them.
 * 25. As a site user i can read about the company so that i can get familiar with the company.
+### Future implementation / Won't have
+* 26. 
+As a site user i can add products to a wishlist so that i can come back later and purchase them.
+* 27. As a site user i can add a coupon code so that i can get a discount on my order.
+* 28. As a site user i can buy a voucher so that it can be used to purchase on the site. 
+* 29. As a site user i can learn the terms and conditions so that i can understand obligations and responsibilities.
+* 30. As a site user i can find answers general questions so that i don't have to contact the site owner.
 
 ## Project Design 
 
