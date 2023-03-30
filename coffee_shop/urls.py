@@ -30,5 +30,5 @@ urlpatterns = [
     path('company/', include('company.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
-# Error handlers 
+# Error handlers
 handler404 = 'coffee_shop.views.handler404'

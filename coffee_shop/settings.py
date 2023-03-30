@@ -29,11 +29,7 @@ ALLAUTH_DIR = os.path.join(BASE_DIR, 'templates', 'allauth')
 SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-if os.environ.get("DEVELOPMENT"):
-    development = True
-else:
-    development = False
-DEBUG = development
+DEBUG = 'DEVELOPMENT' in os.environ
 
 ALLOWED_HOSTS = ['coffee-shop2023.herokuapp.com', 'localhost']
 
