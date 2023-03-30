@@ -31,4 +31,5 @@ urlpatterns = [
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 # Error handlers
+handler404 = 'coffee_shop.views.handler403'
 handler404 = 'coffee_shop.views.handler404'
