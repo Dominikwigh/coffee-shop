@@ -186,3 +186,27 @@ When a order is successfully completed its is shown in the webhooks section on s
 If any links are broken or the user types a faulty adress a 403/404 and 500 page is being displayed.
 ![IMG ALT DESC HERE](IMG PATH HERE)
 
+### Technologies 
+Languages used:
+* HTML
+* CSS
+* Javascript
+* Python/Django 
+### Software & Libraries
+* Gitpod for IDE and Github as a hosting Repository. 
+* Django, a python based framework. 
+* Bootstrap, was used to build responsive web pages. 
+* Font Awesome, source of all site icons.
+* Cloudinary, to store images and static files. 
+* ElephantSQL, databse through Heroku.
+* Crispy Forms, rendering on forms.
+* Pillow, to support image processing.
+* Balsamiq, to build web marketing mockup page.
+* Google Developer Tools, to build responsivness and identifying bugs. 
+* Heroku, to host live website. 
+* Stripe, used to receive payments.
+* LightHouse, to check quality of web pages.
+* HTML vaidator, validate html code. 
+* W3 CSS validator, validate css code. 
+* JSHint, validate Javascript code.
+* Pep8CI, validate Python code. 
