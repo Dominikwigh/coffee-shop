@@ -25,7 +25,7 @@ The visitors to Coffee Shop is most likely someone who enjoys making nice coffee
 The plan for this project was carried out using the Agile Methodology in github. User Stories were created using issues on git hub. Each user story explicitly explains the purpose of the issues. They are prioritised using gitHub labels with different colors.
 Each story was assigned a classification of Must-Have, Should-Have, Could-Have or Won't Have.
 Some tasks were completed quicker than others but overall every thing went good. With the project being completed ahead of schedule. 
- 
+
 Here is a list of my User Stories...
 * 1. As a site user i can view a list of products so that i can select some to purchase.
 * 2. As a site user i can view individual products so that i can identify the description.
@@ -178,3 +178,11 @@ When logging out the user is shown a log out button on a new page with a questio
 ### Webhooks 
 When a order is successfully completed its is shown in the webhooks section on stripe.com. 
 ![IMG ALT DESC HERE](IMG PATH HERE)
+
+### Toasts 
+* I have included toast messages that display in the top right corner anytime the user has done something on the site. Either a green success essage or red error message.
+![IMG ALT DESC HERE](IMG PATH HERE)
+* 403/404/500 
+If any links are broken or the user types a faulty adress a 403/404 and 500 page is being displayed.
+![IMG ALT DESC HERE](IMG PATH HERE)
+
