@@ -192,7 +192,7 @@ Languages used:
 * CSS
 * Javascript
 * Python/Django 
-### Software & Libraries
+#### Software & Libraries
 * Gitpod for IDE and Github as a hosting Repository. 
 * Django, a python based framework. 
 * Bootstrap, was used to build responsive web pages. 

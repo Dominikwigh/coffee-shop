@@ -109,7 +109,6 @@
             {% endif %}
         </div>
     
-    </div>
 </div>
 
 
@@ -121,7 +120,7 @@
 {{ block.super }}
 {% include 'products/includes/quantity-script.html' %}
 
-<script type="text/javascript">
+<script>
     // Update Quantity on click
     $('.update-link').click(function(e) {
         var form = $(this).prev('.update-form');

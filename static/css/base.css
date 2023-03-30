@@ -7,6 +7,14 @@ html {
 .text {
    color: chocolate;
 }
+iframe {
+    width:60%;
+    height:100%;
+}
+.coffee-bar {
+    width:70%; 
+    height:100%;
+}
 
 body {
     background: url('https://res.cloudinary.com/dztdhnhl9/image/upload/v1679652595/media/jon-tyson-pEGyLHAPfVw-unsplash_oxpdrc.jpg') no-repeat center center fixed;
