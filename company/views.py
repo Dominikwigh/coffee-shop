@@ -19,7 +19,7 @@ def contact(request, *args, **kwargs):
             message = form.cleaned_data['message'],
             form.save()
 
-            # Send email 
+            # Send email
             send_mail({subject}, f'{name}, {email}, {message}',
                       settings.EMAIL_HOST_USER, [settings.EMAIL_HOST_USER],
                       fail_silently=False)
@@ -47,7 +47,7 @@ def newsletter(request):
             email = request.POST['email']
             redirect_url = request.POST['redirect_url']
             signed_up = Newsletter.objects.values_list('email', flat=True)
-            
+
             if email in signed_up:
                 messages.error(request, 'This email is alredy signed up!')
             else:
@@ -56,10 +56,12 @@ def newsletter(request):
                 newsletter.name = name
                 newsletter.email = email
                 newsletter.save()
-                messages.success(request, f'{email} has been successfully added to our mailing list')
+                messages.success(request, f'{email} \
+                has been successfully added to our mailing list')
             return redirect(redirect_url)
     except ValueError:
-        messages.error(request, 'Please enter your name and a valid email adress')
+        messages.error(
+            request, 'Please enter your name and a valid email adress')
         return redirect(redirect_url)
 
 

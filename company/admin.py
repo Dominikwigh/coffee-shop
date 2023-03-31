@@ -8,4 +8,3 @@ class SubscribedNewsletterAdmin(admin.ModelAdmin):
 
 admin.site.register(Contact)
 admin.site.register(Newsletter, SubscribedNewsletterAdmin)
-

@@ -1,6 +1,7 @@
 from django.db import models
 from django.contrib.auth.models import User
 
+
 class Category(models.Model):
     """ Category model """
     class Meta:
@@ -41,10 +42,10 @@ class Product(models.Model):
 
 class ProductReview(models.Model):
     """ Model for reviews """
-    product = models.ForeignKey(Product, related_name='reviews', on_delete=models.CASCADE)
-    created_by = models.ForeignKey(User, related_name='reviews', on_delete=models.CASCADE)
+    product = models.ForeignKey(
+        Product, related_name='reviews', on_delete=models.CASCADE)
+    created_by = models.ForeignKey(
+        User, related_name='reviews', on_delete=models.CASCADE)
     content = models.TextField(blank=True, null=True)
     stars = models.IntegerField(default=3)
     date_added = models.DateTimeField(auto_now_add=True)
-
-

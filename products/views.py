@@ -50,7 +50,8 @@ def product_detail(request, product_id):
         stars = request.POST.get('stars', 3)
         content = request.POST.get('content', '')
         if content:
-            reviews = ProductReview.objects.filter(created_by=request.user, product=product)
+            reviews = ProductReview.objects.filter(
+                created_by=request.user, product=product)
             if reviews.count() > 0:
                 review = reviews.first()
                 review.stars = stars
@@ -60,13 +61,16 @@ def product_detail(request, product_id):
                     request, "You have successfully added a review!!"
                     )
             else:
-                review = ProductReview.objects.create(product=product, created_by=request.user, stars=stars, content=content)
+                review = ProductReview.objects.create(
+                    product=product, created_by=request.user, stars=stars,
+                    content=content)
                 messages.success(
                     request, "You have successfully added a review!!"
                 )
         else:
             messages.error(
-                    request, "There was an error adding you review, please try again!"
+                    request, "There was an error adding you review, \
+                        please try again!"
                     )
         return redirect('product_detail', product_id)
 
@@ -75,6 +79,7 @@ def product_detail(request, product_id):
     }
 
     return render(request, 'products/product_detail.html', context)
+
 
 @login_required
 def add_product(request):
@@ -90,16 +95,18 @@ def add_product(request):
             messages.success(request, 'Successfully added product!')
             return redirect(reverse('product_detail', args=[product.id]))
         else:
-            messages.error(request, 'Failed to add product. Please ensure the form is valid.')
+            messages.error(request, 'Failed to add product. Please ensure \
+                the form is valid.')
     else:
-        form = ProductForm()    
-        
+        form = ProductForm()
+
     template = 'products/add_product.html'
     context = {
         'form': form,
     }
 
     return render(request, template, context)
+
 
 @login_required
 def edit_product(request, product_id):
@@ -116,7 +123,8 @@ def edit_product(request, product_id):
             messages.success(request, 'Successfully updated product!')
             return redirect(reverse('product_detail', args=[product.id]))
         else:
-            messages.error(request, 'Failed to update product. Please ensure the form is valid.')
+            messages.error(request, 'Failed to update product. Please ensure \
+                the form is valid.')
     else:
         form = ProductForm(instance=product)
         messages.info(request, f'You are editing {product.name}')
@@ -128,6 +136,7 @@ def edit_product(request, product_id):
     }
 
     return render(request, template, context)
+
 
 @login_required
 def delete_product(request, product_id):

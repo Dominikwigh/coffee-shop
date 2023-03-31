@@ -14,7 +14,7 @@ class TestOrderForm(TestCase):
             'town_or_city': 'test',
             'street_address1': 'test',
         })
-        # Form should not be valid, as full_name is required field
+        # Form should not be valid, as full_name is a required field
         self.assertFalse(form.is_valid())
         self.assertIn('full_name', form.errors.keys())
         # Check that the error message is correct
@@ -49,7 +49,7 @@ class TestOrderForm(TestCase):
             'town_or_city': 'test',
             'street_address1': 'test',
         })
-        # Form should not be valid, as phone_number is required field
+        # Form should not be valid, as phone_number is a required field
         self.assertFalse(form.is_valid())
         self.assertIn('phone_number', form.errors.keys())
         self.assertEqual(
@@ -65,7 +65,7 @@ class TestOrderForm(TestCase):
             'town_or_city': 'test',
             'street_address1': 'test',
         })
-        # Form should not be valid, as country is required field
+        # Form should not be valid, as country is a required field
         self.assertFalse(form.is_valid())
         self.assertIn('country', form.errors.keys())
         self.assertEqual(
@@ -81,7 +81,7 @@ class TestOrderForm(TestCase):
             'town_or_city': '',
             'street_address1': 'test',
         })
-        # Form should not be valid, as town_or_city is required field
+        # Form should not be valid, as town_or_city is a required field
         self.assertFalse(form.is_valid())
         self.assertIn('town_or_city', form.errors.keys())
         self.assertEqual(
@@ -97,7 +97,7 @@ class TestOrderForm(TestCase):
             'town_or_city': 'test',
             'street_address1': '',
         })
-        # Form should not be valid, as street_address1 is required field
+        # Form should not be valid, as street_address1 is a required field
         self.assertFalse(form.is_valid())
         self.assertIn('street_address1', form.errors.keys())
         self.assertEqual(
