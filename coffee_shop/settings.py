@@ -33,7 +33,6 @@ DEBUG = 'DEVELOPMENT' in os.environ
 
 ALLOWED_HOSTS = ['coffee-shop2023.herokuapp.com', 'localhost']
 
-
 # Application definition
 
 INSTALLED_APPS = [
