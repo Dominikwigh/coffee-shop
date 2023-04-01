@@ -93,7 +93,11 @@ Building on the insights gained as part of the Design Thinking phase. This proje
 SEO is key to driving traffic from a browser search like Google to the website. To help improve the search engine ranking I ensured each web page has it's own title, and the site carries meta tags for a description and keywords which encapsulate the general content and focus of this B2C site.
 
 #### Sitemap.xml / Robots.txt 
-I have created a sitemap.xml and robot.txt to help search engines locate my website. And to keep the website safe. 
+I have created a sitemap.xml and robot.txt to help search engines locate my website. And to keep the website safe.
+
+#### Sitemap Google Registration
+To ensure that the Google engine will check the website sitemap file I have registered the url on the Google Search Console.
+![IMG ALT DESC HERE](IMG PATH HERE)
 
 #### Newsletter 
 
