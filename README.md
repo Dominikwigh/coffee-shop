@@ -233,6 +233,19 @@ terminal to start a new Django App
 * 11. Migrate changes: in the terminal window type python3 manage.py migrate
 * 12. Run the server to test if the app is installed, in the terminal "The install worked successfully! Congratulations!". 
 
+### Gmail SMTP
+* For this project i have used gmail smtp to send order confirmations and user contact emails in the deployed version. To use this configuration, copy and adapt the code below into your settings.py file.
+    * if 'DEVELOPMENT' in os.environ:
+        EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+        DEFAULT_FROM_EMAIL = '(ADD YOUR EMAIL ADDRESS)@gmail.com'
+    * else:
+        EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+        EMAIL_USE_TLS = True
+        EMAIL_PORT = 587
+        EMAIL_HOST = 'smtp.gmail.com'
+        EMAIL_HOST_USER =  os.environ.get('EMAIL_HOST_USER')
+        EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASS')
+        DEFAULT_FROM_EMAIL = os.environ.get('EMAIL_HOST_USER')
 ### Deployment of the project 
 The site was deployed by following the these steps. 
 * 1. Log in to Heroku or create an account
