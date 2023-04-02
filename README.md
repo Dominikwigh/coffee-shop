@@ -246,6 +246,19 @@ terminal to start a new Django App
         EMAIL_HOST_USER =  os.environ.get('EMAIL_HOST_USER')
         EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASS')
         DEFAULT_FROM_EMAIL = os.environ.get('EMAIL_HOST_USER')
+
+### ElephantSQL Database
+* The app also uses ElephantSQL to host the database.
+The steps to use ElephantSQl are as follows..
+
+* 1. Log in to ElephantSQL or create an account for free.
+* 2. Click on create a new instance.
+* 3. Set up your plan, give the 'plan' the desired name, select Tiny Turtle(free) plan and leave tags blank.
+* 4. Select the region, and select the nearest to your location.
+* 5. Click review, and if everything is ok, click on create instance down at the bottom.
+* 6. From the instances section click on instance with the name that was just created.
+* 7. Get the databse URL from the instance details page and copy it, this will be inserted in the Heroku Config vars, as DATABASE_URL. 
+
 ### Deployment of the project 
 The site was deployed by following the these steps. 
 * 1. Log in to Heroku or create an account
