@@ -260,3 +260,19 @@ The site was deployed by following the these steps.
 * 1. Create a Procfile "web: gunicorn your_project_name.wsgi"
 * 2. When development is complete change the debug setting to: DEBUG = False in settings.py. 
 * 3. In Heroku settings config vars delete the record for DISABLE_COLLECTSTATIC.
+
+### Forking The Project 
+* Follow these steps to fork this project. 
+* 1. Open Github.
+* 2. find the "fork" button at the top right of the page. 
+* 3. Once you clik the button the fork will be in your repository. 
+
+### Cloning the project 
+* Follow these steps to clone this project. 
+* 1. Open GitHub.
+* 2. You will be provided with three options to choose from, HTTPS, SSH or GitHub CLI, click the clipboard icon in order to copy the URL.
+* 3. Once you click the button the fork will be in your repository.
+* 4. Open a new terminal.
+* 5. Change the current working directory to the location that you want the cloned directory.
+* 6. Type "git clone" and paste the URL copied in step 3.
+* 7. Press "Enter" and the project is cloned.
