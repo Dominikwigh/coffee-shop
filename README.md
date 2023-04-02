@@ -255,3 +255,8 @@ The site was deployed by following the these steps.
 * 10. Search for the repository name and click the connect button
 * 11. Scroll to the bottom of the deploy page and select the preferred deployment type.
 * 12. Click Enable Automatic Deploys for automatic deployment when you push updates to Github.
+
+### Final Deployment 
+* 1. Create a Procfile "web: gunicorn your_project_name.wsgi"
+* 2. When development is complete change the debug setting to: DEBUG = False in settings.py. 
+* 3. In Heroku settings config vars delete the record for DISABLE_COLLECTSTATIC.
