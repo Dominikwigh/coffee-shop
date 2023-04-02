@@ -232,3 +232,26 @@ terminal to start a new Django App
 * 10. Add app to the list of installed apps in settings.py file: you_app_name
 * 11. Migrate changes: in the terminal window type python3 manage.py migrate
 * 12. Run the server to test if the app is installed, in the terminal "The install worked successfully! Congratulations!". 
+
+### Deployment of the project 
+The site was deployed by following the these steps. 
+* 1. Log in to Heroku or create an account
+* 2. On the main page click the button labelled New in the top right corner and from the drop-down menu select Create New App (You must enter a unique app name).
+* 3. Next select your region (closest to you).
+* 4. Click on the Create App button.
+* 5. Click in resources and select Heroku Postgres database.
+* 6. Click Reveal Config Vars and add:
+    * CLOUDINARY_URL.
+    * DATABASE_URL.
+    * EMAIL_HOST_PASS.
+    * EMAIL_HOST_USER.
+    * SECRET_KEY.
+    * STRIPE_PUBLIC_KEY.
+    * STRIPE_SECRET_KEY.
+    * STRIPE_WH_SECRET.
+* 7. Next scroll to the top of the page and choose the Deploy tab.
+* 8. Select Github as the deployment method. 
+* 9. Confirm you want to connect to GitHub
+* 10. Search for the repository name and click the connect button
+* 11. Scroll to the bottom of the deploy page and select the preferred deployment type.
+* 12. Click Enable Automatic Deploys for automatic deployment when you push updates to Github.
