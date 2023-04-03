@@ -21,3 +21,18 @@ User story:
 
 > 5. As a site user i can have a personalized user profile so that i can view my order history.
 ![order history](../coffee-shop/documentation/orderhistory.png)
+
+> 6. As a site user i can recover my password if i forget it so that i can recover access to my account.
+![password rest page](../coffee-shop/documentation/passwordreset.png)
+
+> 7. As a site user i can get an email after registering so that i know that my registration was successful.
+![confirm email](../coffee-shop/documentation/confirmemail.png)
+
+> 8. As a site user i can see product reviews so that i can see which product is the most popular.
+![review section](../coffee-shop/documentation/review.png)
+
+> 9. As a site user i can add items to my cart so that i can purchase them later.
+![shoppingbag page](../coffee-shop/documentation/shoppingbag.png)
+
+> 10. As a site user i can view a specific category so that i can quickly find the product iam looking for.
+![Category menu](../coffee-shop/documentation/categorysearch.png)
