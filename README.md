@@ -16,6 +16,10 @@ Visitors to the site may also subscribe to a newsletter. And receive an confirma
 
 The projects purpose is to enable customers to make purchases, register for an account, and review products while enjoying a nice user experience and user interface.
 
+### Business Model 
+I have chosen a traditional B2C (Business to Customer without middle person) application, which has a straightforward and user friendly interface. 
+* The website handles selling of products directly to the end customer or the website user. 
+
 ## User Experience
 
 User experience has been designed with a minimalistic, clean, and professional look. A light-colored background and bold dark colors for text as well as sharp images portray the purpose and goal of the e-commerce-site.
