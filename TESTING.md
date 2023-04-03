@@ -36,3 +36,43 @@ User story:
 
 > 10. As a site user i can view a specific category so that i can quickly find the product iam looking for.
 ![Category menu](../coffee-shop/documentation/categorysearch.png)
+
+
+> 11. As a site user i can search for products so that i can easily find what iam looking for.
+![Product search page](../coffee-shop/documentation/productsearch.png)
+
+> 12. As a site user i can delete an item from my cart so that i can change product to buy.
+![Removed item from bag](../coffee-shop/documentation/removeditemfrombag.png)
+
+> 13. As a site user i can edit the amount of product in my cart so that i can easily decrement or increment products that i want to buy.
+![Updated amount in bag](../coffee-shop/documentation/updatedamountbag.png)
+
+> 14. As a site user i can view my selected items in the bag so that i know what i am going to purchase.
+![Shopping bag page](../coffee-shop/documentation/shoppingbagpage.png)
+
+> 15. As a site user i can enter my payment information easily so that i can checkout quickly.
+![Checkoutpage](../coffee-shop/documentation/checkoutpage.png)
+
+> 16. As a site user i can view a order confirmation after purchase so that i know that my order went through.
+![Order confirmation page](../coffee-shop/documentation/orderconfirmation.png)
+
+> 17. As a site owner i can provide a contact form so that users can provide feedback or request products.
+![Contact page form](../coffee-shop/documentation/contactpage.png)
+
+> 18. As a site owner i can have my customers signing up for a newsletter so that they can receive a emails about site news.
+![Newsletter form](../coffee-shop/documentation/newsletterform.png)
+
+> 19. As a site admin i can add products so that i can update my inventory.
+![Add prodcut page](../coffee-shop/documentation/addproductpage.png)
+
+> 20. As a admin i can edit my products so that i can update them in the future.
+![Edit product page](../coffee-shop/documentation/editproductpage.png)
+
+> 23. As a admin i can be able to delete products so that i can remove old products.
+![](../coffee-shop/documentation/.png)
+
+> 24. As a site user i can be able to see the stores adress so that i can visit them.
+![](../coffee-shop/documentation/.png)
+
+> 25. As a site user i can read about the company so that i can get familiar with the company.
+![](../coffee-shop/documentation/.png)
