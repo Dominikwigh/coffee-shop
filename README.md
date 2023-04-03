@@ -338,3 +338,18 @@ python manage.py runserver
 * 5. Change the current working directory to the location that you want the cloned directory.
 * 6. Type "git clone" and paste the URL copied in step 3.
 * 7. Press "Enter" and the project is cloned.
+
+## Testing 
+### Automated testing 
+#### Validation 
+* HTML has been validated with link.
+* CSS has been validated with link.
+* Links checked with W3C Link Checker.
+* Each javascript file was tested on the site for errors and functionality using the console and with JSHint.
+* Python has been validated using the link.
+#### Notes:
+    * Tests have been written for views, models and forms from the outset and maintained throughout the project development.
+    * Tests are maintained within separate folders in each app.
+#### Coverage: 
+    * Coverage has been used throughout the project to ensure the majority of my code has been tested.
+    * I test the majority of code I have written, while excluding code that derives from Django or other packages (specifically django-allauth) utilised in this app. Additionally, I do not test the webhook files utilising Stripe webhooks, but test similar code I have written as faking the webhooks seems to necessitate utilising the Stripe dashboard manually.
