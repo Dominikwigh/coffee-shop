@@ -286,6 +286,42 @@ The site was deployed by following the these steps.
 * 1. Create a Procfile "web: gunicorn your_project_name.wsgi"
 * 2. When development is complete change the debug setting to: DEBUG = False in settings.py. 
 * 3. In Heroku settings config vars delete the record for DISABLE_COLLECTSTATIC.
+### Local Deployment 
+* Requirements: 
+    * An IDE, such as Visual Studio Code
+    * Python3 
+    * Pip
+    * Git
+    * Postgres database set up
+    * Cloudinary, to host static files.
+#### Instructions
+* 1. Clone the repository with: 
+git clone hhttps://github.com/Dominikwigh/coffee-shop
+* 2. Open your IDE and chose the base directory. 
+* 3. Run the programs virtual environment with:
+python3 -m .venv venv
+The site can also be run without setting up a virtual environment, please see the python documentation here:
+* 4. Run the virtual environment with:
+.venv\Scripts\activate
+* 5. Install project requirements with:
+pip3 -r requirements.txt.
+* 6. Set up the necessary environment variables in your IDE. Personally i have a env.py file that i have imported into settings.py. So i it would be a good idea for you to do the same. The necessary variables are as follows: 
+    * CLOUDINARY_URL.
+    * DATABASE_URL.
+    * EMAIL_HOST_PASS.
+    * EMAIL_HOST_USER.
+    * SECRET_KEY.
+    * STRIPE_PUBLIC_KEY.
+    * STRIPE_SECRET_KEY.
+    * STRIPE_WH_SECRET.
+some variables might not be necessary based on your setup, so the settings.py file needs to be modified accordingly. ALLOWED_HOST has to be in settings.py. 
+* 7. Run the migrate command to create the data tables with:
+python manage.py migrate 
+* 8. Create a superuser with username and password:
+python manage.py createsuperuser.
+* 9. Run the local server:
+python manage.py runserver
+* 10. The site should be run and be accessible.  
 
 ### Forking The Project 
 * Follow these steps to fork this project. 
