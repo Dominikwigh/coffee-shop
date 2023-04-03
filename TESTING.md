@@ -68,11 +68,11 @@ User story:
 > 20. As a admin i can edit my products so that i can update them in the future.
 ![Edit product page](../coffee-shop/documentation/editproductpage.png)
 
-> 23. As a admin i can be able to delete products so that i can remove old products.
-![](../coffee-shop/documentation/.png)
+> 21. As a admin i can be able to delete products so that i can remove old products.
+![Deleted product toast](../coffee-shop/documentation/deleteproduct.png)
 
-> 24. As a site user i can be able to see the stores adress so that i can visit them.
-![](../coffee-shop/documentation/.png)
+> 22. As a site user i can be able to see the stores address so that i can visit them.
+![Store contact info](../coffee-shop/documentation/storeaddress.png)
 
-> 25. As a site user i can read about the company so that i can get familiar with the company.
-![](../coffee-shop/documentation/.png)
+> 23. As a site user i can read about the company so that i can get familiar with the company.
+![About page](../coffee-shop/documentation/aboutpage.png)
