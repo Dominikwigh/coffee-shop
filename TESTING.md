@@ -108,4 +108,14 @@ User story:
     * After an item has been added a pop. up window is shown with the quantity of items and total cost. 
 ![Bag icon](../coffee-shop/documentation/bagicon.png)
 
+### Home page
 
+* Hero image
+    Tested following:
+    * The "Shop now" button takes the user to all products page.
+![Hero image](../coffee-shop/documentation/heroimage.png)
+* Footer
+    Tested following:
+    * All links in the footer open when clicked.
+    * Filling out the newsletter works and sends the email to the admin.
+![Footer](../coffee-shop/documentation/footer.png)
