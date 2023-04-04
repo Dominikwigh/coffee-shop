@@ -142,3 +142,18 @@ User story:
     * Toast messages are displayed correctly. 
     * The account icon chnages from "my account" to "sign in". 
 ![Logout](../coffee-shop/documentation/logout.png)
+
+### Profile 
+
+* Delivery Details / Order history
+    Tested following:
+    * Every information added by the user matches.
+    * Updates to delivery information updates when button is clicked.
+    * The saved information will autofill at checkout.
+    * Toast messages work when details have been updated.
+    * Clicking the order number will send the user to the order confirmation page. 
+    * When the screen is displayed as small the order history will be displayed below the delivery information. 
+![Profile page](../coffee-shop/documentation/profilepage.png)
+
+
+
