@@ -119,3 +119,26 @@ User story:
     * All links in the footer open when clicked.
     * Filling out the newsletter works and sends the email to the admin.
 ![Footer](../coffee-shop/documentation/footer.png)
+
+### Accounts 
+
+* Registration page 
+    Tested following: 
+    * Submitting the registration form sends a link to the users email. Then the user has to verify their email. 
+    * After filling out he form, these details works to login.
+![Registration form](../coffee-shop/documentation/registrationform.png)
+    * Then the email adress has to get to verified. By clicking the link and then confirming. Then the user can login
+![Email verification](../coffee-shop/documentation/confirmemail.png)
+![Login page](../coffee-shop/documentation/loginpage.png)
+* Login Page
+    Tested following:
+    * Logging in, works for users that have already created an account.
+    * User can sign in via username and email.
+    * Toast messages are displayed correctly.
+![Login page](../coffee-shop/documentation/loginpage.png)
+* Log out page
+    Tested following: 
+    * The log out page logs out users. 
+    * Toast messages are displayed correctly. 
+    * The account icon chnages from "my account" to "sign in". 
+![Logout](../coffee-shop/documentation/logout.png)
