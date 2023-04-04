@@ -155,5 +155,27 @@ User story:
     * When the screen is displayed as small the order history will be displayed below the delivery information. 
 ![Profile page](../coffee-shop/documentation/profilepage.png)
 
+### Products 
 
+* All prodcuts page
+    Tested following:
+    * The product page is responsive, adjusting the amount of products displayed depending on screen size.
+    * Each product displays an image, title, price, category and rating.
+    * If the user is an admin there will be displayed two buttons, one for edit and one for delete.
+![Products page](../coffee-shop/documentation/productpage.png)
 
+* Product Detail
+    Tested following:
+    * The product detail info shows information about the product, along with buttons to add to cart, and the quantity the user wishes to add to the bag.
+    * The product rating is an average and will display result in stars. It is not linked to the review form. 
+    * There is a button for keep shopping beneath the add to bag button. 
+    * If the user is an admin there will be displayed two buttons, one for edit and one for delete.
+![Product detail page](../coffee-shop/documentation/productdetail.png)
+
+* Product review
+    Tested following: 
+    * The product review card is located beneath the product detail.
+    * Since the leave review button is only valid for logged in users, there will be an sign in and signup button for users that are not authenticated and logged in.
+    * The review contains the amount of stars given, the comment they've added, the users name and when it was added.
+![Product review logged in](../coffee-shop/documentation/reviewloggedin.png)
+![Product review not logged in](../coffee-shop/documentation/review.png)
