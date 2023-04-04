@@ -205,3 +205,22 @@ User story:
     * When deleteing a product it is deleted completely from the database. 
 ![Delete product page](../coffee-shop/documentation/deleteproduct.png)
 
+### Bag 
+
+* Items 
+    Tested following: 
+    * The shopping bag displays the items added to the bag.
+    * Clicking the image in the bag will redirect the user to the product detail page.
+    * The added item shows the image, name, price and quantity of the product.
+    * Each product has a line to change the qty of the item, or delete it from the bag.
+![Shopping bag page](../coffee-shop/documentation/shoppingbagpage.png)
+
+* Quantity and Price
+    Tested following:
+    * The quantity element button has two sides, one to decrease and one to increase the total of items.
+    * The minus option will be disabled if the quantity of the item is one.
+    * The plus button will disable if the amount added is 99.
+    * Clicking remove, will remove the specified product from the bag.
+
+
+
