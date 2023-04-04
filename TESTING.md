@@ -222,5 +222,38 @@ User story:
     * The plus button will disable if the amount added is 99.
     * Clicking remove, will remove the specified product from the bag.
 
+### Checkout 
+
+* Checkout details
+    Tested following:
+    * If the user is anonymous, a link to create an account or login will be present.
+    * Any field with the sign * has to be filled out, if left empty, an error message will be displayed.
+    * If the user is logged in, the box for save information can be checked, and the information will then be saved.
+    * If the user is signed in and already has added their information, that will be displayed automatically.
+![Chekout page](../coffee-shop/documentation/checkoutpage.png)
+
+* Order Summary 
+    Tested following:
+    * Clicking the image of the product takes the user to the product detail view.
+    * This section will show details of everything in the bag, along with quantity and grand total.
+
+* Payment 
+    Tested following:
+    * Only numbers can be entered in the card payment section. Incorrect card numbers will display an error message.
+    * You can make a purchase using a fake card number: 4242 4242 4242 4242 with the expiry date 04/24 and the CVC code 242.
+    * You can either make your purchse or go back to the shopping bag via the buttons located beneath the card form. 
+![Card form](../coffee-shop/documentation/cardform.png)
+
+* Confirmation 
+    Tested following:
+    * Once the order has been processed the user is taken to the successpage.
+    * An email confirmation will be sent to the users given email.
+    * After the summary the user can choose to go back to the shop via a button located at the bottom. 
+![Confirmation page](../coffee-shop/documentation/orderconfirmation.png)
+
+* Webhooks 
+    Tested following: 
+    * After the payment has gone thru, the order shows in the webhooks and confirm the order exists.
+![Webhhok page](../coffee-shop/documentation/webhooks.png)
 
 
