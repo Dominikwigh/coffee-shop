@@ -179,3 +179,29 @@ User story:
     * The review contains the amount of stars given, the comment they've added, the users name and when it was added.
 ![Product review logged in](../coffee-shop/documentation/reviewloggedin.png)
 ![Product review not logged in](../coffee-shop/documentation/review.png)
+
+### Product Management
+
+* Add a product 
+    Tested following:
+    * The button for adding a product is accessed via the account dropdown menu, under product management.
+    * The form can't be submitted with any empty fields besides image url and rating.
+    * When a product has been added a success message is shown to alert the user of the action. 
+![Add product page](../coffee-shop/documentation/addproductpage.png)
+
+* Edit Product
+    Tested following: 
+    * The edit button can be accessed both from all products view, and product detail view.
+    * Clicking to edit the product button leaves all the forms filled out as is, with options to edit fields. And a alert message is shown to alert the admin that they are editing the product.
+    * Clicking the button "Update Product" saves any changes made to the existing item.
+    * The edit button can only be accessed from a logged in admin user.
+![Edit product page](../coffee-shop/documentation/editproductpage.png)
+
+* Delete Product
+    Tested Following: 
+    * The delete button can be accessed both from all products view, and product detail view.
+    * At the moment there is no warning to show when clicking delete. 
+    * When a product is deleted a success message is shown. 
+    * When deleteing a product it is deleted completely from the database. 
+![Delete product page](../coffee-shop/documentation/deleteproduct.png)
+
