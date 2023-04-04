@@ -76,3 +76,36 @@ User story:
 
 > 23. As a site user i can read about the company so that i can get familiar with the company.
 ![About page](../coffee-shop/documentation/aboutpage.png)
+
+## Feature Testing
+
+### Navbar
+
+* Links 
+    Tested following: 
+    * Links are changing colour when hovered over.
+    * The shop link drops down and displayes, "All products, Beans and Coffee machines.
+    * Once the screen size is collapsed to small the links collapse to a hamburger menu. 
+![Nav bar](../coffee-shop/documentation/navbar.png)
+* Search bar 
+    Tested following:
+    * The search bar will search both product title and description. 
+    * once the screen size is collapsed to small the search bar turns into a icon and is displayed beside the account icon. 
+![Search bar](../coffee-shop/documentation/searchbar.png)
+* Account 
+    Tested following:
+    * Hovering over the account icon, it changes colout. 
+    * When clicking the account icon it displays as a dropdown for the user to either register or signin. 
+    * When a user is logged in the options change to "My account" and "Signout".
+    * When a user is signed in as a super user then a third option of 'Product Management' is available.
+
+![Account icon](../coffee-shop/documentation/accounticon.png)
+* Bag
+    Tested following:
+    * Underneath the bag icon there is a total cost of all the items in the bag displayed. 
+    And chnages accordingly. 
+    * When the bag icon is clicked, the user gets navigated to the shopping bag. 
+    * After an item has been added a pop. up window is shown with the quantity of items and total cost. 
+![Bag icon](../coffee-shop/documentation/bagicon.png)
+
+
