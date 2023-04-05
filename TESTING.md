@@ -1,3 +1,22 @@
+# Automated Testing
+Automated Unit Testing was done using Django’s testing tools by importing the built in TestCase class from Django. Below is an overview report for testing forms, views and models for each app. The reports are generated when I installed coverage in the terminal using the commands:
+- pip3 install covreage
+- coverage run --source=(appname) manage.py test
+#### To view the reports in the browser:
+- coverage report
+- coverage html
+- python3 -m http.server
+#### Bag Testing
+ ![Bag app testing report](../coffee-shop/documentation/bagreport.png)
+ #### Checkout Testing
+ ![Checkout app testing report](../coffee-shop/documentation/checkoutreport.png)
+ #### Company Testing
+ ![Company app tsting report](../coffee-shop/documentation/companyreport.png)
+ #### Products Testing
+ ![Products app testing report](../coffee-shop/documentation/productsreport.png)
+ #### Profiles Testing
+ ![Profiles app testing report](../coffee-shop/documentation/profilesreport.png)
+
 # Manual Testing 
 
 The purpose of this document is to summarise the process, results, bugs and fixes as part of manual testing of the coffee-shop website. 
@@ -172,7 +191,7 @@ User story:
     * If the user is an admin there will be displayed two buttons, one for edit and one for delete.
 ![Product detail page](../coffee-shop/documentation/productdetail.png)
 
-* Product review
+### Product review (1 of 3 original models)
     Tested following: 
     * The product review card is located beneath the product detail.
     * Since the leave review button is only valid for logged in users, there will be an sign in and signup button for users that are not authenticated and logged in.
@@ -265,7 +284,7 @@ Tested following:
 ![About Page](../coffee-shop/documentation/aboutpage.png)
 
 
-### Contact 
+### Contact (1 of 3 original models)
 * Contact Info 
     Tested following:
     * Hovering over the social media icons will make them change colour. 
@@ -278,7 +297,7 @@ Tested following:
 ![Contact page](../coffee-shop/documentation/contactpage.png)
 
 
-### Newsletter
+### Newsletter (1 of 3 original models)
 Tested following:
 * Signing up to the newsletter works. 
 * When a user has signed up a success message is shown. 
@@ -286,6 +305,7 @@ Tested following:
 ![Newsletter form](../coffee-shop/documentation/newsletterform.png)
 ![Newsletter success message](../coffee-shop/documentation/newslettersuccess.png)
 ![Newsletter error message](../coffee-shop/documentation/newslettererror.png)
+![Newsletter signup](../coffee-shop/documentation/newslettesignup.png)
 
 
 ### Toast 
