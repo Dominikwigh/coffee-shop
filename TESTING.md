@@ -338,3 +338,14 @@ I used W3C jigsaw validator to check the 3 CSS files used for this project. Resu
 ![Checkout app css validation](../coffee-shop/documentation/checkoutcss.png)
 * Profile
 ![Profile app css validation](../coffee-shop/documentation/profilecss.png)
+
+#### JS Hint Javascript validator
+I used JS Hint to check the Javascript files in this project. The following files were checked with no errors founds:
+* Checkout app - stripe.element.js
+* Profiles app - countryfield.json
+* Products app - Fixtures > categories.js and products.json
+### Scripts 
+Scripts that have been added within a HTML file. I have decide to add the scripts within the html files due to their small content, It would otherwise be best practice to keep everything seperated in their own file.
+* Bag app - bag.html
+* Products app - product.html 
+* Products app - inlcudes > quantity-script.html
