@@ -325,9 +325,7 @@ tested following:
 * CSS has been validated with link.
 * Links checked with W3C Link Checker.
 * Each javascript file was tested on the site for errors and functionality using the console and with JSHint.
-* Python has been validated using the link
-When refactoring my code i also used the following command to identify and fix as much pylint error as possible.
-* python3 -m flake8
+* Python has been validated using the link.
 Most of the problems found were based on lines being too long. I fixed all issues by moving the code around, using the right indentation, curly brackets and testing the site to make sure everything still worked. The only outstanding linting errors I didn't fix are:
 * Migrations, aswell as some lines of code in settings.py that were generated with installing django. 
 #### W3C Css validation 
@@ -349,3 +347,8 @@ Scripts that have been added within a HTML file. I have decide to add the script
 * Bag app - bag.html
 * Products app - product.html 
 * Products app - inlcudes > quantity-script.html
+
+#### Pep8 online validator
+I used the PEP8 online validator to check all python files. Most files had (line to long) errors. The error wer fixed and then all files were passed through the validator agian and then no error were found.
+When refactoring my code i also used the following command to identify and fix as much pylint error as possible.
+* python3 -m flake8
