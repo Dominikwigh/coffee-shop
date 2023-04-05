@@ -312,5 +312,17 @@ Tested following:
 Tested following:
 * Toast messages appear in the top right corner and are displayed anytime the user does something on the site. 
 * The toast message will be green if it is succeefuf.
-* The toast message will be red if it is an error. 
+* The toast message will be red if it is an error.
 
+### Error page
+tested following:
+* Anytime a user types an address that is incorrect or is trying to do something invalid a 404 page is rendered. 
+* I have also added a 403 and 500 error page to the website. 
+![404 page](../coffee-shop/documentation/404page.png)
+
+#### Validation 
+* HTML has been validated with link.
+* CSS has been validated with link.
+* Links checked with W3C Link Checker.
+* Each javascript file was tested on the site for errors and functionality using the console and with JSHint.
+* Python has been validated using the link
