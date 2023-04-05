@@ -1,5 +1,7 @@
 # Automated Testing
-Automated Unit Testing was done using Django’s testing tools by importing the built in TestCase class from Django. Below is an overview report for testing forms, views and models for each app. The reports are generated when I installed coverage in the terminal using the commands:
+Automated Unit Testing was done using Django’s testing tools by importing the built in TestCase class from Django. Tests are maintained within separate folders in each app.
+I test the majority of code i have written, while excluding code that derives from Django or other packages (specifically django-allauth) utilised in this app. Additionally, I do not test the webhook files utilising Stripe webhooks, but test similar code i have written as faking the webhooks seems to necessitate utilising the Stripe dashboard manually.
+Below is an overview report for testing forms, views and models for each app. The reports are generated when I installed coverage in the terminal using the commands:
 - pip3 install covreage
 - coverage run --source=(appname) manage.py test
 #### To view the reports in the browser:
@@ -24,7 +26,6 @@ All test have been performed using the live envioronment deployed from heroku.
 
 ## User Story Testing
 The objective of this test is to validate that the user requirements have been delivered for the MVP release.
-User story: 
 >  1. As a site user i can view a list of products so that i can select some to purchase.
 ![All products page](../coffee-shop/documentation/productdetail.png)
 
@@ -117,7 +118,6 @@ User story:
     * When clicking the account icon it displays as a dropdown for the user to either register or signin. 
     * When a user is logged in the options change to "My account" and "Signout".
     * When a user is signed in as a super user then a third option of 'Product Management' is available.
-
 ![Account icon](../coffee-shop/documentation/accounticon.png)
 * Bag
     Tested following:
@@ -192,10 +192,10 @@ User story:
 ![Product detail page](../coffee-shop/documentation/productdetail.png)
 
 ### Product review (1 of 3 original models)
-    Tested following: 
-    * The product review card is located beneath the product detail.
-    * Since the leave review button is only valid for logged in users, there will be an sign in and signup button for users that are not authenticated and logged in.
-    * The review contains the amount of stars given, the comment they've added, the users name and when it was added.
+Tested following: 
+* The product review card is located beneath the product detail.
+* Since the leave review button is only valid for logged in users, there will be an sign in and signup button for users that are not authenticated and logged in.
+* The review contains the amount of stars given, the comment they've added, the users name and when it was added.
 ![Product review logged in](../coffee-shop/documentation/reviewloggedin.png)
 ![Product review not logged in](../coffee-shop/documentation/review.png)
 
@@ -305,7 +305,7 @@ Tested following:
 ![Newsletter form](../coffee-shop/documentation/newsletterform.png)
 ![Newsletter success message](../coffee-shop/documentation/newslettersuccess.png)
 ![Newsletter error message](../coffee-shop/documentation/newslettererror.png)
-![Newsletter signup](../coffee-shop/documentation/newslettesignup.png)
+![Newsletter signup](../coffee-shop/documentation/newslettersignup.png)
 
 
 ### Toast 
