@@ -18,8 +18,8 @@ class TestProductModels(TestCase):
         product = Product.objects.get(pk=1)
         self.assertEqual(
             product.description, (
-                "The Lavazza coffee beans are a blend of Arabica from Brazil, \
-                RainForest certified. Enjoy a strong coffee with gourmet \
+                 "The Lavazza coffee beans are a blend of Arabica from Brazil,\
+                RainForest certified. Enjoy a strong coffee with gourmet\
                 notes of cereals and dried fruit. 1kg."))
         self.assertNotEqual(product.description, 'test description')
 
