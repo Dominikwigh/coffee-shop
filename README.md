@@ -1,5 +1,5 @@
 # Coffee Shop 
-![Responsive image](../coffee-shop/documentation/responsive.png)
+![Responsive image](documentation/responsive.png)
 
 Coffee shop is a small family run coffee shop serving fresh coffee to people in London.
 I have created this full-stack application using the Python, Django framework, Heroku PostgreSQL and front-end technologies, HTML, CSS, and Javascript.
