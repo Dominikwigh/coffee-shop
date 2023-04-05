@@ -342,7 +342,7 @@ I used JS Hint to check the Javascript files in this project. The following file
 * Checkout app - stripe.element.js
 * Profiles app - countryfield.json
 * Products app - Fixtures > categories.js and products.json
-### Scripts 
+#### Scripts 
 Scripts that have been added within a HTML file. I have decide to add the scripts within the html files due to their small content, It would otherwise be best practice to keep everything seperated in their own file.
 * Bag app - bag.html
 * Products app - product.html 
@@ -352,3 +352,22 @@ Scripts that have been added within a HTML file. I have decide to add the script
 I used the PEP8 online validator to check all python files. Most files had (line to long) errors. The error wer fixed and then all files were passed through the validator agian and then no error were found.
 When refactoring my code i also used the following command to identify and fix as much pylint error as possible.
 * python3 -m flake8
+
+### Bugs 
+
+> 1. The quantity decrement in shopping cart on desktop should stop at zero but users would be able to keep reducing the quantity into minus numbers. If the user updated the quantity with a minus figure the item would just be removed from the cart.
+
+#### Fix: 
+With the help of Code Institute, slack and tutor, i changed the Id on the quantity form to a class and refactored the Javascript to look for elements with the same class name. 
+
+> 2. I had a bug when a user had made a purchase the shooping bag should have been cleard from items. Orders went through but after payment confirmation the item would still be in the shopping bag.
+
+#### Fix:
+With the help of tutor support i had an indentaion error causing the function to not be executed. I had indented the following line one step to much. Which ment i hade the lines in a if statemnt and not outside it.
+This was in the chekout_success view. 
+![Line of code](../coffee-shop/documentation/bugtwo.png)
+
+> 3. When deplying the site i got an "SERVER ERROR". 
+
+#### Fix: 
+With the help of tutor support i deleted the session id in Google Developer Tools and that seemd to fix the issue. 
