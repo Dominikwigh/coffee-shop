@@ -320,9 +320,21 @@ tested following:
 * I have also added a 403 and 500 error page to the website. 
 ![404 page](../coffee-shop/documentation/404page.png)
 
-#### Validation 
+### Validation 
 * HTML has been validated with link.
 * CSS has been validated with link.
 * Links checked with W3C Link Checker.
 * Each javascript file was tested on the site for errors and functionality using the console and with JSHint.
 * Python has been validated using the link
+When refactoring my code i also used the following command to identify and fix as much pylint error as possible.
+* python3 -m flake8
+Most of the problems found were based on lines being too long. I fixed all issues by moving the code around, using the right indentation, curly brackets and testing the site to make sure everything still worked. The only outstanding linting errors I didn't fix are:
+* Migrations, aswell as some lines of code in settings.py that were generated with installing django. 
+#### W3C Css validation 
+I used W3C jigsaw validator to check the 3 CSS files used for this project. Results below show that there are no erros.
+* Base
+![Base app css validation](../coffee-shop/documentation/stylecss.png)
+* Checkout
+![Checkout app css validation](../coffee-shop/documentation/checkoutcss.png)
+* Profile
+![Profile app css validation](../coffee-shop/documentation/profilecss.png)
