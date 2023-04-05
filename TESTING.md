@@ -276,3 +276,21 @@ Tested following:
     * All fields are required to be filled out. 
     * When all fields have been filled out the "Submit" button sends a emial to the store owner. And the user is shown a success message. 
 ![Contact page](../coffee-shop/documentation/contactpage.png)
+
+
+### Newsletter
+Tested following:
+* Signing up to the newsletter works. 
+* When a user has signed up a success message is shown. 
+* When a user already have signed up before, a error message is shown that their email is already signed up. 
+![Newsletter form](../coffee-shop/documentation/newsletterform.png)
+![Newsletter success message](../coffee-shop/documentation/newslettersuccess.png)
+![Newsletter error message](../coffee-shop/documentation/newslettererror.png)
+
+
+### Toast 
+Tested following:
+* Toast messages appear in the top right corner and are displayed anytime the user does something on the site. 
+* The toast message will be green if it is succeefuf.
+* The toast message will be red if it is an error. 
+
