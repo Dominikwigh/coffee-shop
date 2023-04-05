@@ -257,3 +257,22 @@ User story:
 ![Webhhok page](../coffee-shop/documentation/webhooks.png)
 
 
+### About Page
+    
+Tested following:
+* Page is accessible from the navbar and when "About" is cliked it directs the user to the about page. 
+* Image is responsive and looks good on all screen sizes. 
+![About Page](../coffee-shop/documentation/aboutpage.png)
+
+
+### Contact 
+* Contact Info 
+    Tested following:
+    * Hovering over the social media icons will make them change colour. 
+    * When clicking the map, it takes the user to google maps. 
+
+* Contact form
+    Tested following:
+    * All fields are required to be filled out. 
+    * When all fields have been filled out the "Submit" button sends a emial to the store owner. And the user is shown a success message. 
+![Contact page](../coffee-shop/documentation/contactpage.png)
