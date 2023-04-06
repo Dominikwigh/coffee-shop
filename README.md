@@ -43,49 +43,44 @@ Here is a list of my User Stories...
 * 10. As a site user i can view a specific category so that i can quickly find the product iam looking for.
 * 11. As a site user i can search for products so that i can easily find what iam looking for.
 * 12. As a site user i can delete an item from my cart so that i can change product to buy.
-* 13. As a site user i can edit the amount of product in my cart so that i can easily decrement or increment products that i want to buy.
-* 14. As a site user i can edit the amount of products in the shopping bag so that its easy to edit.
-* 15. As a site user i can view my selected items in the bag so that i know what i am going to purchase.
-* 16. As a site user i can enter my payment information easily so that i can checkout quickly.
-* 17. As a site user i can view a order confirmation after purchase so that i know that my order went through.
-* 18. As a site user i can receive a order confirmation so that i know my purchase went through.
-* 19. As a site owner i can provide a contact form so that users can provide feedback or request products.
-* 20. As a site owner i can have my customers signing up for a newsletter so that they can receive a emails about site news.
-* 21. As a site admin i can add products so that i can update my inventory.
-* 22. As a admin i can edit my products so that i can update them in the future.
-* 23. As a admin i can be. able to delete products so that i can remove old products.
-* 24. As a site user i can be able to see the stores adress so that i can visit them.
-* 25. As a site user i can read about the company so that i can get familiar with the company.
+* 13. As a site user i can edit the amount of products in the shopping bag so that its easy to edit.
+* 14. As a site user i can view my selected items in the bag so that i know what i am going to purchase.
+* 15. As a site user i can enter my payment information easily so that i can checkout quickly.
+* 16. As a site user i can view a order confirmation after purchase so that i know that my order went through.
+* 17. As a site owner i can provide a contact form so that users can provide feedback or request products.
+* 18. As a site owner i can have my customers signing up for a newsletter so that they can receive a emails about site news.
+* 19. As a site admin i can add products so that i can update my inventory.
+* 20. As a admin i can edit my products so that i can update them in the future.
+* 21. As a admin i can be able to delete products so that i can remove old products.
+* 22. As a site user i can be able to see the stores adress so that i can visit them.
+* 23. As a site user i can read about the company so that i can get familiar with the company.
 ### Future implementation / Won't have
-* 26. 
-As a site user i can add products to a wishlist so that i can come back later and purchase them.
-* 27. As a site user i can add a coupon code so that i can get a discount on my order.
-* 28. As a site user i can buy a voucher so that it can be used to purchase on the site. 
-* 29. As a site user i can learn the terms and conditions so that i can understand obligations and responsibilities.
-* 30. As a site user i can find answers general questions so that i don't have to contact the site owner.
+* 24. As a site user i can add products to a wishlist so that i can come back later and purchase them.
+* 25. As a site user i can add a coupon code so that i can get a discount on my order.
+* 26. As a site user i can buy a voucher so that it can be used to purchase on the site. 
+* 27. As a site user i can learn the terms and conditions so that i can understand obligations and responsibilities.
+* 28. As a site user i can find answers general questions so that i don't have to contact the site owner.
 
 ## Project Design 
 
-### Color Scheme 
-![IMG ALT DESC HERE](IMG PATH HERE)
+### Colour Scheme 
+![Colour schema](documentation/clourschema.png)
 * The idea for the site is minimalistic and clean, the project is partly inspired by Code Institutes "Boutique Ado" with some finishing styles that i've added. 
-
-* The product images i have taken from Link!!! with permission. 
 
 ### Wireframes 
 I took a lot of inspiration from Code Institutes Boutique Ado walktrough project. 
 Homepage Mockup:
-![IMG ALT DESC HERE](IMG PATH HERE)
-
+![Wireframe 1](documentation/wireframe1.png)
+![Wireframe 2](documentation/wireframe2.png)
 Product page mockup: 
-![IMG ALT DESC HERE](IMG PATH HERE)
+![Facebook page](documentation/facebook.png)
 
 ### Fonts 
 Google Fonts has been used to provide free fonts for commercial use. The fonts selected have been chosen for differing reasons whilst still complementing each other. 
 
 ### Database Schema 
 The Database schema is as below: 
-![IMG ALT DESC HERE](IMG PATH HERE)
+![Database Schema](documentation/DatabaseSchemap5.png)
 
 
 ### Web Marketing Startegy 
@@ -101,14 +96,11 @@ I have created a sitemap.xml and robot.txt to help search engines locate my webs
 
 #### Sitemap Google Registration
 To ensure that the Google engine will check the website sitemap file I have registered the url on the Google Search Console.
-![IMG ALT DESC HERE](IMG PATH HERE)
 
 #### Newsletter 
-
 To allow the business to communicate with their customers to promote products and events through digital marketing, i have created a newsletter (One of three original models). The newsletter can be found at the bottom of the site, in the footer. Once the emial address is submitted a success message is presented to notify that the user is signed up. If by chance the user trys to sign up agian, the user is notifyied that their emial is already signed up.
 
 #### Coffee shop location 
-
 I have used Google Maps within an iframe inside the footer to promote the physical store location to show customers how they can physicaly experience the businesses coffee.
 
 
@@ -123,79 +115,72 @@ To increase traffic to the website, a facebook page has been built that will dis
 * The navbar includes a shop dropdown menu where you can selelct a specific category to browse through. 
 aswell as a about page, and contact page. 
 * To the right in the navbar is a dropdown meny for users to register/login and logout. Aswell as a big icon to enter the shooping bag. 
-![IMG ALT DESC HERE](IMG PATH HERE)
+![Navbar](documentation/navbar.png)
 
 
 ### Homepage 
 * the homepage has several features, a nice background image with a button that is linked to the products page, containing all the products. Its easy for the user to access the products directly after opening th website. 
-![IMG ALT DESC HERE](IMG PATH HERE)
+![Homepage](documentation/homepage.png)
 
 ### Footer 
-* The footer offers a nice dark colour to distinguishing the top from the bottom. The footer enables quick access to key information to improve the users journey on the website. It also includes the businesses socials. 
+* The footer offers a nice dark colour to distinguishing the top from the bottom. The footer enables quick access to key information to improve the users journey on the website. It also includes the businesses socials.
+![Footer](documentation/Footer.png)
 
 ### Products & Customer reviews 
 * Using a Bootstrap grid, the products are set out in rows with each product aligned to a card. 
 Each card provides brief info on the product, and the user is able to find out more buy clicking on th eproduct image. 
-![IMG ALT DESC HERE](IMG PATH HERE)
+![Product](documentation/productpage.png)
 * Clicking through provides more information on the specific product with options to add the item to their bag or update quantity. This page also promotes feedback from users through Customer Reviews. Only users who are registered can leave a review so there is a handy link to encourage this feature. Reviews are published immediately to provide a feeling of success to the user. The business assess reviews regularly to ensure there is nothing inflammatory - at which point they could be deleted through Django Admin. (The Reviews feature is the second of the three oginal models).
-![IMG ALT DESC HERE](IMG PATH HERE)
+![Review](documentation/review.png)
 
 ### Shopping Bag
 
 The bag page provides an overview of all of the items added by the user. The information aims to confirm what the user has selected with a table of information about the product and a supporting image. The price of all items is calculated and provided as a 'subtotal' with the delivery charge if the price is not over 40 dollars. Users can change quantity of a product or remove a product from the shopping bag, before proceeding to checkout. Users also have the option to keep shooping via a button located at the bottom. 
-![IMG ALT DESC HERE](IMG PATH HERE)
+![Shopping bag](documentation/shoppingbag.png)
 
 ### Checkout 
-
 This page enables the user to complete their transaction. It is split in to two sections with delivery and billing on the left side and an overview of the items that are about to be purchased on the right. Here stripe have been implemented to manage transactions and collect payments. The test purchases have been enabled using the following card details. 
-![IMG ALT DESC HERE](IMG PATH HERE)
-![IMG ALT DESC HERE](IMG PATH HERE)
+![Checkout](documentation/checkoutpage.png)
 
-When completing a transaction, users are automatically navigated to tthe checkout success page. Which provides a confirmation. The confirmation is also emailed to the user. 
-
-![IMG ALT DESC HERE](IMG PATH HERE)
+When completing a transaction, users are automatically navigated to the checkout success page. Which provides a confirmation. The confirmation is also emailed to the user. 
+![Checkout success](documentation/checkoutsuccess.png)
 
 ### User Profile 
-
 Accessed through the 'My Account' link in the navbar, a registered and signed-in user can update their saved delivery details and view order history. Each transaction is a row with a table. The 'Order Number' can be clicked to open the order confirmation page.
-
-![IMG ALT DESC HERE](IMG PATH HERE)
+![Profile page](documentation/profilepage.png)
 
 ### Contact Page 
-
 Users can contact the business via a form that can be navigated to via the link in the navbar. A short and simple form can be completed. For the user to leave their concerns. When a user submits the form a success message is shown at the top. 
 (One of three original models)
-![IMG ALT DESC HERE](IMG PATH HERE)
+![Contact page](documentation/contactpage.png)
 
 ### About Page 
-
 This page consists of the background of the company, when the owner traveled to Italy and traveld back to the UK later with some coffee. 
-![IMG ALT DESC HERE](IMG PATH HERE)
+![About page](documentation/aboutpage.png)
 
 ### Admin - Product Management
 This feature is enabled for super users only.
 With this role based permission setting you can perform CRUD (Create, Review, Update and Delete) products from either the front or back end. The front end product management incorporates Bootstrap and Crispy to present clean forms to either Add, Edit or Delete a product. Super users can review a product within the Product Details page - which when signed-in as a super user presents to links to either 'Edit' or 'Delete' and item. Otherwise this user type can add a product through the 'Account' drop-down nav menu, and selecting 'Add Products'. 
-![IMG ALT DESC HERE](IMG PATH HERE)
+![Add products](documentation/addproductpage.png)
 
 ### Log in/Log out 
 The login page is consist of a form wher ethe user has to enter either username or email and then password. When signed in the user gets a success message.
-![IMG ALT DESC HERE](IMG PATH HERE)
+![Login page](documentation/loginpage.png)
 When logging out the user is shown a log out button on a new page with a question to definetly sign out. And when signed out the user is redirected to the home page and gets an success message. 
-![IMG ALT DESC HERE](IMG PATH HERE)
+![Log out page](documentation/logout.png)
 
 ### Reset Password
 Users can rest their password if they have an account by entering their email address that is connected to their profile account. Once this is done users will receive confirmation that an email has been sent to them in order to reset their password on their account securely. If users change their mind they can select the 'Back to Login' option.
 
 ### Webhooks 
 When a order is successfully completed its is shown in the webhooks section on stripe.com. 
-![IMG ALT DESC HERE](IMG PATH HERE)
+![Webhooks](documentation/webhooks.png)
 
 ### Toasts 
 * I have included toast messages that display in the top right corner anytime the user has done something on the site. Either a green success essage or red error message.
-![IMG ALT DESC HERE](IMG PATH HERE)
 * 403/404/500 
 If any links are broken or the user types a faulty adress a 403/404 and 500 page is being displayed.
-![IMG ALT DESC HERE](IMG PATH HERE)
+![404 page](documentation/404page.png)
 
 ### Technologies 
 Languages used:
@@ -386,3 +371,5 @@ Testing can be found here..
 * The slack community.
 * Tutor support.
 * My family for taking the time to visit my site and give me feedback.
+
+ <a href="#top">Back to top</a>
