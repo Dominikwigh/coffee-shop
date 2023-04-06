@@ -1,5 +1,7 @@
+The purpose of this document is to summarise the process, results, bugs and fixes as part of manual and automated testing of the coffee-shop website. 
 # Automated Testing
-Automated Unit Testing was done using Django’s testing tools by importing the built in TestCase class from Django. Tests are maintained within separate folders in each app.
+All test have been performed using the live envioronment deployed from heroku. 
+Automated Unit Testing was done using Django’s testing tools by importing the built in TestCase class from Django. Tests are maintained within separate files in each app.
 I test the majority of code i have written, while excluding code that derives from Django or other packages (specifically django-allauth) utilised in this app. Additionally, I do not test the webhook files utilising Stripe webhooks, but test similar code i have written as faking the webhooks seems to necessitate utilising the Stripe dashboard manually.
 Below is an overview report for testing forms, views and models for each app. The reports are generated when I installed coverage in the terminal using the commands:
 - pip3 install covreage
@@ -18,12 +20,9 @@ Below is an overview report for testing forms, views and models for each app. Th
  ![Products app testing report](documentation/productsreport.png)
  #### Profiles Testing
  ![Profiles app testing report](documentation/profilesreport.png)
+ ![Test result in terminal](documentation/testresult.png)
 
 # Manual Testing 
-
-The purpose of this document is to summarise the process, results, bugs and fixes as part of manual testing of the coffee-shop website. 
-All test have been performed using the live envioronment deployed from heroku. 
-
 ## User Story Testing
 The objective of this test is to validate that the user requirements have been delivered for the MVP release.
 >  1. As a site user i can view a list of products so that i can select some to purchase.
@@ -305,6 +304,7 @@ Tested following:
 ![Newsletter form](documentation/newsletterform.png)
 ![Newsletter success message](documentation/newslettersuccess.png)
 ![Newsletter error message](documentation/newslettererror.png)
+* Admin page 
 ![Newsletter signup](documentation/newslettersignup.png)
 
 

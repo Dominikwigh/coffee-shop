@@ -4,7 +4,7 @@
 Coffee shop is a small family run coffee shop serving fresh coffee to people in London.
 I have created this full-stack application using the Python, Django framework, Heroku PostgreSQL and front-end technologies, HTML, CSS, and Javascript.
 
-My website can be found here ....
+My website can be found here...[Website](https://coffee-shop2023.herokuapp.com/)
 
 ## Goals 
 The goal for this project was to allow users to register and confirm their email address, create a profile that would store user order information, order history, and favourited products.
@@ -343,5 +343,6 @@ python manage.py runserver
 * 6. Type "git clone" and paste the URL copied in step 3.
 * 7. Press "Enter" and the project is cloned.
 
-## Testing 
-
+## Testing
+Testing can be found here..
+[TESTING.md](TESTING.md)
