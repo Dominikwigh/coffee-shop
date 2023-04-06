@@ -346,3 +346,24 @@ python manage.py runserver
 ## Testing
 Testing can be found here..
 [TESTING.md](TESTING.md)
+
+## Credits 
+
+### Code 
+* In general the coding and testing has relied on the Code Institutes walkthrough project "Boutique Ado", with customisations to bring in information about the business and how to contact coffeeshop. Additionally, users can add product reviews and signup for a newsletter. 
+* The [Django documentation](https://docs.djangoproject.com/en/4.0/) was a key role for trouble shooting.
+* [Stack Overflow](https://stackoverflow.com/) for finding solutions and research.
+* [W3Schools](https://www.w3schools.com/) for research on different syntaxes.
+* [Newsletter in django](https://dev.to/shubhamkshatriya25/how-to-build-a-email-newsletter-subscriber-in-django-j2p) was used as a reference to build the newsletter functionality.
+* To build the review functionality i used [Product reviews](https://www.youtube.com/watch?v=Y5vvGQyHtpM) as an reference.
+* The code for the footer was taken from [Mbbootstrap](https://mdbootstrap.com/docs/standard/navigation/footer/examples-and-customization/) with my own modifications. 
+#### Images
+* Product images were taken from [kaffekapslen](https://www.kaffekapslen.se/) with permission.
+* Favicon was taken from [Uxwing](https://uxwing.com/coffee-icon/)
+* The background image and about page image was taken from [Pixels](https://www.pexels.com/)
+
+## Acknowledgements
+* Big thank you to my mentor Rory Patrick. 
+* The slack community.
+* Tutor support.
+* My family for taking the time to visit my site and give me feedback.
