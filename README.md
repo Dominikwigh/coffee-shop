@@ -167,11 +167,11 @@ This page consists of the background of the company, when the owner traveled to 
 
 ### Admin - Product Management
 This feature is enabled for super users only.
-With this role based permission setting you can perform CRUD (Create, Review, Update and Delete) products from either the front or back end. The front end product management incorporates Bootstrap and Crispy to present clean forms to either Add, Edit or Delete a product. Super users can review a product within the Product Details page - which when signed-in as a super user presents to links to either 'Edit' or 'Delete' and item. Otherwise this user type can add a product through the 'Account' drop-down nav menu, and selecting 'Add Products'. 
+With this role based permission setting you can perform CRUD (Create, Review, Update and Delete) products from either the front or back end. The front end product management incorporates Bootstrap and Crispy to present clean forms to either Add, Edit or Delete a product. Superusers can review a product within the Product Details page - which when signed-in as a superuser presents to links to either 'Edit' or 'Delete' and item. Otherwise this user type can add a product through the 'Account' drop-down nav menu, and selecting 'Add Products'. 
 ![Add products](documentation/addproductpage.png)
 
 ### Log in/Log out 
-The login page is consist of a form wher ethe user has to enter either username or email and then password. When signed in the user gets a success message.
+The login page is consist of a form where the user has to enter either username or email and then password. When signed in the user gets a success message.
 ![Login page](documentation/loginpage.png)
 When logging out the user is shown a log out button on a new page with a question to definetly sign out. And when signed out the user is redirected to the home page and gets an success message. 
 ![Log out page](documentation/logout.png)
@@ -184,9 +184,9 @@ When a order is successfully completed its is shown in the webhooks section on s
 ![Webhooks](documentation/webhooks.png)
 
 ### Toasts 
-* I have included toast messages that display in the top right corner anytime the user has done something on the site. Either a green success essage or red error message.
+* I have included toast messages that display in the top right corner anytime the user has done something on the site. Either a green success message or red error message.
 * 403/404/500 
-If any links are broken or the user types a faulty adress a 403/404 and 500 page is being displayed.
+If any links are broken or the user types a faulty address a 403/404 and 500 page is being displayed.
 ![404 page](documentation/404page.png)
 
 ### Technologies 
