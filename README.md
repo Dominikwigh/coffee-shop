@@ -387,4 +387,11 @@ Testing can be found here..
 * Tutor support.
 * My family for taking the time to visit my site and give me feedback.
 
- <a href="#top">Back to top</a>
+### Notes
+* To test buying a product(s) please use the following card payment details.
+    * Card Number: 4242 4242 4242 4242
+    * Expiry date: 04/24 (any future month/year)
+    * 3-digit CVC code: 242 (any 3-digit code)
+    * 5-digit ZIP code: 42424 (any ZIP code)
+
+<a href="#top">Back to top</a>
