@@ -375,3 +375,8 @@ This was in the chekout_success view.
 
 #### Fix: 
 With the help of tutor support i deleted the session id in Google Developer Tools and that seemd to fix the issue. 
+
+### Unresolved bugs
+> 1. There is currently two quantity forms on the bag.html page due to having two layouts one for desktop and one for mobile. 
+This means that there is two IDs to the remove button, one on mobile view and one on desktop. This gives an error on html validation. 
+![bag error](documentation/bagerror.png)
