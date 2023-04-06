@@ -353,6 +353,10 @@ I used the PEP8 online validator to check all python files. Most files had (line
 When refactoring my code i also used the following command to identify and fix as much pylint error as possible.
 * python3 -m flake8
 
+### Lighthouse Testing 
+* Lighthouse score shows following score:
+![Lighthouse](documentation/lighthouse.png)
+
 ### Bugs 
 
 > 1. The quantity decrement in shopping cart on desktop should stop at zero but users would be able to keep reducing the quantity into minus numbers. If the user updated the quantity with a minus figure the item would just be removed from the cart.
