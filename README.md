@@ -64,14 +64,14 @@ Here is a list of my User Stories...
 ## Project Design 
 
 ### Colour Scheme 
-![Colour schema](documentation/clourschema.png)
+![Colour schema](documentation/colourschema.png)
 * The idea for the site is minimalistic and clean, the project is partly inspired by Code Institutes "Boutique Ado" with some finishing styles that i've added. 
 
 ### Wireframes 
 I took a lot of inspiration from Code Institutes Boutique Ado walktrough project. 
 Homepage Mockup:
-![Wireframe 1](documentation/wireframe1.png)
-![Wireframe 2](documentation/wireframe2.png)
+![Wireframe 1](documentation/wireframe1.jpeg)
+![Wireframe 2](documentation/wireframe2.jpeg)
 Product page mockup: 
 ![Facebook page](documentation/facebook.png)
 
@@ -124,7 +124,7 @@ aswell as a about page, and contact page.
 
 ### Footer 
 * The footer offers a nice dark colour to distinguishing the top from the bottom. The footer enables quick access to key information to improve the users journey on the website. It also includes the businesses socials.
-![Footer](documentation/Footer.png)
+![Footer](documentation/footer.png)
 
 ### Products & Customer reviews 
 * Using a Bootstrap grid, the products are set out in rows with each product aligned to a card. 
@@ -189,23 +189,23 @@ Languages used:
 * Javascript
 * Python/Django 
 #### Software & Libraries
-* Gitpod for IDE and Github as a hosting Repository. 
-* Django, a python based framework. 
-* Bootstrap, was used to build responsive web pages. 
-* Font Awesome, source of all site icons.
-* Cloudinary, to store images and static files. 
-* ElephantSQL, databse through Heroku.
-* Crispy Forms, rendering on forms.
-* Pillow, to support image processing.
-* Balsamiq, to build web marketing mockup page.
-* Google Developer Tools, to build responsivness and identifying bugs. 
-* Heroku, to host live website. 
-* Stripe, used to receive payments.
-* LightHouse, to check quality of web pages.
-* HTML vaidator, validate html code. 
-* W3 CSS validator, validate css code. 
-* JSHint, validate Javascript code.
-* Pep8CI, validate Python code. 
+* [Gitpod](https://www.gitpod.io/) for IDE and Github as a hosting Repository. 
+* [Django](https://www.djangoproject.com/) a python based framework. 
+* [Bootstrap](https://getbootstrap.com/docs/4.6/getting-started/introduction/#starter-template), was used to build responsive web pages. 
+* [Font Awesome](https://fontawesome.com/), source of all site icons.
+* [Cloudinary](https://cloudinary.com/), to store images and static files. 
+* [ElephantSQL](https://www.elephantsql.com/), databse through Heroku.
+* [Crispy Forms](https://django-crispy-forms.readthedocs.io/en/latest/), rendering on forms.
+* [Pillow](https://pypi.org/project/Pillow/), to support image processing.
+* [Balsamiq](https://balsamiq.com/), to build web marketing mockup page.
+* [Google Developer Tools](https://www.google.com/chrome/dev/), to build responsivness and identifying bugs. 
+* [Heroku](https://www.heroku.com/platform), to host live website. 
+* [Stripe](https://stripe.com/), used to receive payments.
+* [Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=sv), to check quality of web pages.
+* [Html validator](https://validator.w3.org/), validate html code. 
+* [W3 CSS Validator](https://jigsaw.w3.org/css-validator/), validate css code. 
+* [JSHint](https://jshint.com/), validate Javascript code.
+* [PEP8CI](https://pep8ci.herokuapp.com/#), validate Python code. 
 
 ### Creating the Django app
 * 1. Go to the Code Institute Gitpod Full Template. 
