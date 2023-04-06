@@ -100,25 +100,25 @@ The objective of this test is to validate that the user requirements have been d
 ### Navbar
 
 * Links 
-    Tested following: 
+    tested following: 
     * Links are changing colour when hovered over.
     * The shop link drops down and displayes, "All products, Beans and Coffee machines.
     * Once the screen size is collapsed to small the links collapse to a hamburger menu. 
 ![Nav bar](documentation/navbar.png)
 * Search bar 
-    Tested following:
+    tested following:
     * The search bar will search both product title and description. 
     * Once the screen size is collapsed to small the search bar turns into a icon and is displayed beside the account icon. 
 ![Search bar](documentation/searchbar.png)
 * Account 
-    Tested following:
+    tested following:
     * Hovering over the account icon, it changes colout. 
     * When clicking the account icon it displays as a dropdown for the user to either register or signin. 
     * When a user is logged in the options change to "My account" and "Signout".
     * When a user is signed in as a super user then a third option of 'Product Management' is available.
 ![Account icon](documentation/accounticon.png)
 * Bag
-    Tested following:
+    tested following:
     * Underneath the bag icon there is a total cost of all the items in the bag displayed. 
     And chnages accordingly. 
     * When the bag icon is clicked, the user gets navigated to the shopping bag. 
@@ -127,18 +127,18 @@ The objective of this test is to validate that the user requirements have been d
 
 ### Home page
 * Hero image
-    Tested following:
+    tested following:
     * The "Shop now" button takes the user to all products page.
 ![Hero image](documentation/heroimage.png)
 * Footer
-    Tested following:
+    tested following:
     * All links in the footer open when clicked.
     * Filling out the newsletter works and sends the email to the admin.
 ![Footer](documentation/footer.png)
 
 ### Accounts 
 * Registration page 
-    Tested following: 
+    tested following: 
     * Submitting the registration form sends a link to the users email. Then the user has to verify their email. 
     * After filling out he form, these details works to login.
 ![Registration form](documentation/registrationform.png)
@@ -146,13 +146,13 @@ The objective of this test is to validate that the user requirements have been d
 ![Email verification](documentation/confirmemail.png)
 ![Login page](documentation/loginpage.png)
 * Login Page
-    Tested following:
+    tested following:
     * Logging in, works for users that have already created an account.
     * User can sign in via username and email.
     * Toast messages are displayed correctly.
 ![Login page](documentation/loginpage.png)
 * Log out page
-    Tested following: 
+    tested following: 
     * The log out page logs out users. 
     * Toast messages are displayed correctly. 
     * The account icon chnages from "my account" to "sign in". 
@@ -160,7 +160,7 @@ The objective of this test is to validate that the user requirements have been d
 
 ### Profile 
 * Delivery Details / Order history
-    Tested following:
+    tested following:
     * Every information added by the user matches.
     * Updates to delivery information updates when button is clicked.
     * The saved information will autofill at checkout.
@@ -171,14 +171,14 @@ The objective of this test is to validate that the user requirements have been d
 
 ### Products 
 * All prodcuts page
-    Tested following:
+    tested following:
     * The product page is responsive, adjusting the amount of products displayed depending on screen size.
     * Each product displays an image, title, price, category and rating.
     * If the user is an admin there will be displayed two buttons, one for edit and one for delete.
 ![Products page](documentation/productpage.png)
 
 * Product Detail
-    Tested following:
+    tested following:
     * The product detail info shows information about the product, along with buttons to add to cart, and the quantity the user wishes to add to the bag.
     * The product rating is an average and will display result in stars. It is not linked to the review form. 
     * There is a button for keep shopping beneath the add to bag button. 
@@ -186,7 +186,7 @@ The objective of this test is to validate that the user requirements have been d
 ![Product detail page](documentation/productdetail.png)
 
 ### Product review (1 of 3 original models)
-Tested following: 
+tested following: 
 * The product review card is located beneath the product detail.
 * Since the leave review button is only valid for logged in users, there will be an sign in and signup button for users that are not authenticated and logged in.
 * The review contains the amount of stars given, the comment they've added, the username and when it was added.
@@ -195,14 +195,14 @@ Tested following:
 
 ### Product Management
 * Add a product 
-    Tested following:
+    tested following:
     * The button for adding a product is accessed via the account dropdown menu, under product management.
     * The form can't be submitted with any empty fields besides image url and rating.
     * When a product has been added a success message is shown to alert the user of the action. 
 ![Add product page](documentation/addproductpage.png)
 
 * Edit Product
-    Tested following: 
+    tested following: 
     * The edit button can be accessed both from all products view, and product detail view.
     * Clicking to edit the product button leaves all the forms filled out as is, with options to edit fields. And a alert message is shown to alert the admin that they are editing the product.
     * Clicking the button "Update Product" saves any changes made to the existing item.
@@ -210,7 +210,7 @@ Tested following:
 ![Edit product page](documentation/editproductpage.png)
 
 * Delete Product
-    Tested Following: 
+    tested Following: 
     * The delete button can be accessed both from all products view, and product detail view.
     * At the moment there is no warning to show when clicking delete. 
     * When a product is deleted a success message is shown. 
@@ -219,7 +219,7 @@ Tested following:
 
 ### Bag 
 * Items 
-    Tested following: 
+    tested following: 
     * The shopping bag displays the items added to the bag.
     * Clicking the image in the bag will redirect the user to the product detail page.
     * The added item shows the image, name, price and quantity of the product.
@@ -227,7 +227,7 @@ Tested following:
 ![Shopping bag page](documentation/shoppingbagpage.png)
 
 * Quantity and Price
-    Tested following:
+    tested following:
     * The quantity element button has two sides, one to decrease and one to increase the total of items.
     * The minus option will be disabled if the quantity of the item is one.
     * The plus button will disable if the amount added is 99.
@@ -235,7 +235,7 @@ Tested following:
 
 ### Checkout 
 * Checkout details
-    Tested following:
+    tested following:
     * If the user is anonymous, a link to create an account or login will be present.
     * Any field with the sign * has to be filled out, if left empty, an error message will be displayed.
     * If the user is logged in, the box for save information can be checked, and the information will then be saved.
@@ -243,26 +243,26 @@ Tested following:
 ![Chekout page](documentation/checkoutpage.png)
 
 * Order Summary 
-    Tested following:
+    tested following:
     * Clicking the image of the product takes the user to the product detail view.
     * This section will show details of everything in the bag, along with quantity and grand total.
 
 * Payment 
-    Tested following:
+    tested following:
     * Only numbers can be entered in the card payment section. Incorrect card numbers will display an error message.
     * You can make a purchase using a fake card number: 4242 4242 4242 4242 with the expiry date 04/24 and the CVC code 242.
     * You can either make your purchse or go back to the shopping bag via the buttons located beneath the card form. 
 ![Card form](documentation/cardform.png)
 
 * Confirmation 
-    Tested following:
+    tested following:
     * Once the order has been processed the user is taken to the successpage.
     * An email confirmation will be sent to the users given email.
     * After the summary the user can choose to go back to the shop via a button located at the bottom. 
 ![Confirmation page](documentation/orderconfirmation.png)
 
 * Webhooks 
-    Tested following: 
+    tested following: 
     * After the payment has gone thru, the order shows in the webhooks and confirm the order exists.
 ![Webhhok page](documentation/webhooks.png)
 
@@ -276,12 +276,12 @@ Tested following:
 
 ### Contact (1 of 3 original models)
 * Contact Info 
-    Tested following:
+    tested following:
     * Hovering over the social media icons will make them change colour. 
     * When clicking the map, it takes the user to google maps. 
 
 * Contact form
-    Tested following:
+    tested following:
     * All fields are required to be filled out. 
     * When all fields have been filled out the "Submit" button sends a emial to the store owner. And the user is shown a success message. 
 ![Contact page](documentation/contactpage.png)
@@ -369,4 +369,3 @@ With the help of tutor support i deleted the session id in Google Developer Tool
 ### Unresolved bugs
 > 1. There is currently two quantity forms on the bag.html page due to having two layouts one for desktop and one for mobile. 
 This means that there is two IDs to the remove button, one on mobile view and one on desktop. This gives an error on html validation. 
-![bag error](documentation/bagerror.png)
