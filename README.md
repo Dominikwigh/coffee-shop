@@ -22,7 +22,6 @@ My website can be found here...[Website](https://coffee-shop2023.herokuapp.com/)
 The goal for this project was to allow users to register and confirm their email address, create a profile that would store user order information, order history, and favourited products.
 
 Users also can browse filter and sort products by name and category.
-
 As well as allow purchases of products themed around coffee, making reviews for products, aswell as contacting the store admin via mail. 
 Visitors to the site may also subscribe to a newsletter. And receive an confirmation email after purchsing. 
 
@@ -33,12 +32,11 @@ I have chosen a traditional B2C (Business to Customer without middle person) app
 * The website handles selling of products directly to the end customer or the website user. 
 
 ## User Experience
-
 User experience has been designed with a minimalistic, clean, and professional look. A light-colored background and bold dark colors for text as well as sharp images portray the purpose and goal of the e-commerce-site.
 The visitors to Coffee Shop is most likely someone who enjoys making nice coffee at home. Who enjoys a nice espresso, or a pour over coffee from whole beans. A visitor to Coffee shop is also someone who most likely enjoys reading about coffee.
 
 ## Agile Development 
-The plan for this project was carried out using the Agile Methodology in github. User Stories were created using issues on git hub. Each user story explicitly explains the purpose of the issues. They are prioritised using gitHub labels with different colors.
+The plan for this project was carried out using the Agile Methodology in github. User Stories were created using issues on github. Each user story explicitly explains the purpose of the issues. They are prioritised using gitHub labels with different colors.
 Each story was assigned a classification of Must-Have, Should-Have, Could-Have or Won't Have.
 Some tasks were completed quicker than others but overall every thing went good. With the project being completed ahead of schedule. 
 
@@ -89,18 +87,19 @@ Homepage Mockup:
 ![Wireframe 2](documentation/wireframe2.jpeg)
 
 ### Fonts 
-Google Fonts has been used to provide free fonts for commercial use. The fonts selected have been chosen for differing reasons whilst still complementing each other. 
+[Google Fonts](https://fonts.google.com/) has been used to provide free fonts for commercial use. The fonts selected have been chosen for differing reasons whilst still complementing each other. 
 
 ### Database Schema 
 The Database schema is as below: 
 ![Database Schema](documentation/DatabaseSchemap5.png)
 
-
 ### Web Marketing Startegy 
-Building on the insights gained as part of the Design Thinking phase. This project has the business model of Business to customer as the business is selling directly to the end user.
+Building on the insights gained as part of the design thinking phase. This project has the business model of Business to customer as the business is selling directly to the end user.
 Market research was undertaken to decide on the appropriate marketing strategy to promote the Coffee shop brand. For social media marketing, Facebook is still the best option to promote brands to potential customers.
 Users are encouraged to signup for newsletters, discounts and information about the products sold. The signup form is available on the websites footer. Allowing the website admin to send marketing emails through the platform.
-> Product page mockup: 
+
+#### Facebook Page 
+To increase traffic to the website, a facebook page has been built that will display information about the products and business.
 ![Facebook page](documentation/facebook.png)
 
 #### Search Engine Optimisation (SEO)
@@ -113,28 +112,22 @@ I have created a sitemap.xml and robot.txt to help search engines locate my webs
 To ensure that the Google engine will check the website sitemap file I have registered the url on the Google Search Console.
 
 #### Newsletter 
-To allow the business to communicate with their customers to promote products and events through digital marketing, i have created a newsletter (One of three original models). The newsletter can be found at the bottom of the site, in the footer. Once the emial address is submitted a success message is presented to notify that the user is signed up. If by chance the user trys to sign up agian, the user is notifyied that their emial is already signed up.
+To allow the business to communicate with their customers to promote products and events through digital marketing, i have created a newsletter (One of three original models). The newsletter can be found at the bottom of the site, in the footer. Once the email address is submitted a success message is presented to notify that the user is signed up. If by chance the user tries to sign up agian, the user is notifyied that their email is already signed up.
 
 #### Coffee shop location 
 I have used Google Maps within an iframe inside the footer to promote the physical store location to show customers how they can physicaly experience the businesses coffee.
-
-
-#### Facebook Page 
-To increase traffic to the website, a facebook page has been built that will display information about the products and business.
-![Facebook page](documentation/facebook.png)
 
 ## Project Features 
 
 ### Navbar
 * I have used a Bootstrap 4 fixed navbar that remains on all pages. Its easy to navigate with a clear font and design. While collapsing to mobile view it changes to a burger menu. 
-* The navbar includes a shop dropdown menu where you can selelct a specific category to browse through. 
+* The navbar includes a shop dropdown menu where you can select a specific category to browse through. 
 aswell as a about page, and contact page. 
-* To the right in the navbar is a dropdown meny for users to register/login and logout. Aswell as a big icon to enter the shooping bag. 
+* To the right in the navbar is a dropdown menu for users to register/login and logout. Aswell as a big icon to enter the shopping bag. 
 ![Navbar](documentation/navbar.png)
 
-
 ### Homepage 
-* the homepage has several features, a nice background image with a button that is linked to the products page, containing all the products. Its easy for the user to access the products directly after opening th website. 
+* The homepage has several features, a nice background image with a button that is linked to the products page, containing all the products. Its easy for the user to access the products directly after opening the website. 
 ![Homepage](documentation/homepage.png)
 
 ### Footer 
@@ -143,9 +136,9 @@ aswell as a about page, and contact page.
 
 ### Products & Customer reviews 
 * Using a Bootstrap grid, the products are set out in rows with each product aligned to a card. 
-Each card provides brief info on the product, and the user is able to find out more buy clicking on th eproduct image. 
+Each card provides brief info on the product, and the user is able to find out more buy clicking on the product image. 
 ![Product](documentation/productpage.png)
-* Clicking through provides more information on the specific product with options to add the item to their bag or update quantity. This page also promotes feedback from users through Customer Reviews. Only users who are registered can leave a review so there is a handy link to encourage this feature. Reviews are published immediately to provide a feeling of success to the user. The business assess reviews regularly to ensure there is nothing inflammatory - at which point they could be deleted through Django Admin. (The Reviews feature is the second of the three oginal models).
+* Clicking through provides more information on the specific product with options to add the item to their bag or update quantity. This page also promotes feedback from users through customer reviews. Only users who are registered can leave a review so there is a handy link to encourage this feature. Reviews are published immediately to provide a feeling of success to the user. The business assess reviews regularly to ensure there is nothing inflammatory - at which point they could be deleted through django admin. (The Reviews feature is the second of the three oginal models).
 ![Review](documentation/review.png)
 
 ### Shopping Bag
@@ -153,7 +146,7 @@ The bag page provides an overview of all of the items added by the user. The inf
 ![Shopping bag](documentation/shoppingbag.png)
 
 ### Checkout 
-This page enables the user to complete their transaction. It is split in to two sections with delivery and billing on the left side and an overview of the items that are about to be purchased on the right. Here stripe have been implemented to manage transactions and collect payments. The test purchases have been enabled using the following card details. 
+This page enables the user to complete their transaction. It is split in to two sections with delivery and billing on the left side and an overview of the items that are about to be purchased on the right. Here stripe have been implemented to manage transactions and collect payments. 
 ![Checkout](documentation/checkoutpage.png)
 
 When completing a transaction, users are automatically navigated to the checkout success page. Which provides a confirmation. The confirmation is also emailed to the user. 
