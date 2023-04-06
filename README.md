@@ -121,7 +121,7 @@ I have used Google Maps within an iframe inside the footer to promote the physic
 
 #### Facebook Page 
 To increase traffic to the website, a facebook page has been built that will display information about the products and business.
-![IMG ALT DESC HERE](IMG PATH HERE)
+![Facebook page](documentation/facebook.png)
 
 ## Project Features 
 
@@ -149,7 +149,6 @@ Each card provides brief info on the product, and the user is able to find out m
 ![Review](documentation/review.png)
 
 ### Shopping Bag
-
 The bag page provides an overview of all of the items added by the user. The information aims to confirm what the user has selected with a table of information about the product and a supporting image. The price of all items is calculated and provided as a 'subtotal' with the delivery charge if the price is not over 40 dollars. Users can change quantity of a product or remove a product from the shopping bag, before proceeding to checkout. Users also have the option to keep shooping via a button located at the bottom. 
 ![Shopping bag](documentation/shoppingbag.png)
 
@@ -375,7 +374,8 @@ Testing can be found here..
 * [W3Schools](https://www.w3schools.com/) for research on different syntaxes.
 * [Newsletter in django](https://dev.to/shubhamkshatriya25/how-to-build-a-email-newsletter-subscriber-in-django-j2p) was used as a reference to build the newsletter functionality.
 * To build the review functionality i used [Product reviews](https://www.youtube.com/watch?v=Y5vvGQyHtpM) as an reference.
-* The code for the footer was taken from [Mbbootstrap](https://mdbootstrap.com/docs/standard/navigation/footer/examples-and-customization/) with my own modifications. 
+* The code for the footer was taken from [Mbbootstrap](https://mdbootstrap.com/docs/standard/navigation/footer/examples-and-customization/) with my own modifications.
+
 #### Images
 * Product images were taken from [kaffekapslen](https://www.kaffekapslen.se/) with permission.
 * Favicon was taken from [Uxwing](https://uxwing.com/coffee-icon/)

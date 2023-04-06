@@ -127,7 +127,6 @@ The objective of this test is to validate that the user requirements have been d
 ![Bag icon](documentation/bagicon.png)
 
 ### Home page
-
 * Hero image
     Tested following:
     * The "Shop now" button takes the user to all products page.
@@ -139,7 +138,6 @@ The objective of this test is to validate that the user requirements have been d
 ![Footer](documentation/footer.png)
 
 ### Accounts 
-
 * Registration page 
     Tested following: 
     * Submitting the registration form sends a link to the users email. Then the user has to verify their email. 
@@ -162,7 +160,6 @@ The objective of this test is to validate that the user requirements have been d
 ![Logout](documentation/logout.png)
 
 ### Profile 
-
 * Delivery Details / Order history
     Tested following:
     * Every information added by the user matches.
@@ -174,7 +171,6 @@ The objective of this test is to validate that the user requirements have been d
 ![Profile page](documentation/profilepage.png)
 
 ### Products 
-
 * All prodcuts page
     Tested following:
     * The product page is responsive, adjusting the amount of products displayed depending on screen size.
@@ -199,7 +195,6 @@ Tested following:
 ![Product review not logged in](documentation/review.png)
 
 ### Product Management
-
 * Add a product 
     Tested following:
     * The button for adding a product is accessed via the account dropdown menu, under product management.
@@ -224,7 +219,6 @@ Tested following:
 ![Delete product page](documentation/deleteproduct.png)
 
 ### Bag 
-
 * Items 
     Tested following: 
     * The shopping bag displays the items added to the bag.
@@ -241,7 +235,6 @@ Tested following:
     * Clicking remove, will remove the specified product from the bag.
 
 ### Checkout 
-
 * Checkout details
     Tested following:
     * If the user is anonymous, a link to create an account or login will be present.
@@ -276,7 +269,6 @@ Tested following:
 
 
 ### About Page
-    
 Tested following:
 * Page is accessible from the navbar and when "About" is cliked it directs the user to the about page. 
 * Image is responsive and looks good on all screen sizes. 
@@ -321,13 +313,13 @@ tested following:
 ![404 page](documentation/404page.png)
 
 ### Validation 
-* HTML has been validated with link.
-* CSS has been validated with link.
-* Links checked with W3C Link Checker.
+* HTML has been validated with [Validator](https://validator.w3.org/).
+* CSS has been validated with [Jigsaw](https://jigsaw.w3.org/css-validator/validator.html.en).
+* Links checked with [W3C Link Checker](https://validator.w3.org/checklink).
 * Each javascript file was tested on the site for errors and functionality using the console and with JSHint.
 * Python has been validated using the link.
 Most of the problems found were based on lines being too long. I fixed all issues by moving the code around, using the right indentation, curly brackets and testing the site to make sure everything still worked. The only outstanding linting errors I didn't fix are:
-* Migrations, aswell as some lines of code in settings.py that were generated with installing django. 
+    * Migrations, aswell as some lines of code in settings.py that were generated with installing django. 
 #### W3C Css validation 
 I used W3C jigsaw validator to check the 3 CSS files used for this project. Results below show that there are no erros.
 * Base
@@ -358,7 +350,6 @@ When refactoring my code i also used the following command to identify and fix a
 ![Lighthouse](documentation/lighthouse.png)
 
 ### Bugs 
-
 > 1. The quantity decrement in shopping cart on desktop should stop at zero but users would be able to keep reducing the quantity into minus numbers. If the user updated the quantity with a minus figure the item would just be removed from the cart.
 
 #### Fix: 
