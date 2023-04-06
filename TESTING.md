@@ -56,7 +56,6 @@ The objective of this test is to validate that the user requirements have been d
 > 10. As a site user i can view a specific category so that i can quickly find the product iam looking for.
 ![Category menu](documentation/categorysearch.png)
 
-
 > 11. As a site user i can search for products so that i can easily find what iam looking for.
 ![Product search page](documentation/productsearch.png)
 
@@ -109,7 +108,7 @@ The objective of this test is to validate that the user requirements have been d
 * Search bar 
     Tested following:
     * The search bar will search both product title and description. 
-    * once the screen size is collapsed to small the search bar turns into a icon and is displayed beside the account icon. 
+    * Once the screen size is collapsed to small the search bar turns into a icon and is displayed beside the account icon. 
 ![Search bar](documentation/searchbar.png)
 * Account 
     Tested following:
@@ -123,7 +122,7 @@ The objective of this test is to validate that the user requirements have been d
     * Underneath the bag icon there is a total cost of all the items in the bag displayed. 
     And chnages accordingly. 
     * When the bag icon is clicked, the user gets navigated to the shopping bag. 
-    * After an item has been added a pop. up window is shown with the quantity of items and total cost. 
+    * After an item has been added a pop up window is shown with the quantity of items and total cost. 
 ![Bag icon](documentation/bagicon.png)
 
 ### Home page
@@ -190,7 +189,7 @@ The objective of this test is to validate that the user requirements have been d
 Tested following: 
 * The product review card is located beneath the product detail.
 * Since the leave review button is only valid for logged in users, there will be an sign in and signup button for users that are not authenticated and logged in.
-* The review contains the amount of stars given, the comment they've added, the users name and when it was added.
+* The review contains the amount of stars given, the comment they've added, the username and when it was added.
 ![Product review logged in](documentation/reviewloggedin.png)
 ![Product review not logged in](documentation/review.png)
 
@@ -317,7 +316,7 @@ tested following:
 * CSS has been validated with [Jigsaw](https://jigsaw.w3.org/css-validator/validator.html.en).
 * Links checked with [W3C Link Checker](https://validator.w3.org/checklink).
 * Each javascript file was tested on the site for errors and functionality using the console and with JSHint.
-* Python has been validated using the link.
+* Python has been validated using the [Pep8](https://pep8ci.herokuapp.com/#).
 Most of the problems found were based on lines being too long. I fixed all issues by moving the code around, using the right indentation, curly brackets and testing the site to make sure everything still worked. The only outstanding linting errors I didn't fix are:
     * Migrations, aswell as some lines of code in settings.py that were generated with installing django. 
 #### W3C Css validation 
@@ -341,7 +340,7 @@ Scripts that have been added within a HTML file. I have decide to add the script
 * Products app - inlcudes > quantity-script.html
 
 #### Pep8 online validator
-I used the PEP8 online validator to check all python files. Most files had (line to long) errors. The error wer fixed and then all files were passed through the validator agian and then no error were found.
+I used the PEP8 online validator to check all python files. Most files had (line to long) errors. The error were fixed and then all files were passed through the validator again and then no error were found.
 When refactoring my code i also used the following command to identify and fix as much pylint error as possible.
 * python3 -m flake8
 
@@ -353,9 +352,9 @@ When refactoring my code i also used the following command to identify and fix a
 > 1. The quantity decrement in shopping cart on desktop should stop at zero but users would be able to keep reducing the quantity into minus numbers. If the user updated the quantity with a minus figure the item would just be removed from the cart.
 
 #### Fix: 
-With the help of Code Institute, slack and tutor, i changed the Id on the quantity form to a class and refactored the Javascript to look for elements with the same class name. 
+With the help of Code Institute boutique ado project, slack and tutor, i changed the Id on the quantity form to a class and refactored the Javascript to look for elements with the same class name. 
 
-> 2. I had a bug when a user had made a purchase the shooping bag should have been cleard from items. Orders went through but after payment confirmation the item would still be in the shopping bag.
+> 2. I had a bug when a user had made a purchase the shopping bag should have been cleared from items. Orders went through but after payment confirmation the item would still be in the shopping bag.
 
 #### Fix:
 With the help of tutor support i had an indentaion error causing the function to not be executed. I had indented the following line one step to much. Which ment i hade the lines in a if statemnt and not outside it.
