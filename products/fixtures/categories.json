@@ -75,16 +75,16 @@
       "pk": 10,
       "model": "products.category",
       "fields": {
-        "name": "Coffee Machines",
-        "friendly_name": "Coffee Machines"
+        "name": "Machines",
+        "friendly_name": "Machines"
       }
     },
       {
       "pk": 11,
       "model": "products.category",
       "fields": {
-        "name": "Coffee Machines",
-        "friendly_name": "Coffee Machines"
+        "name": "Machines",
+        "friendly_name": "Machines"
       }
       }
   ]

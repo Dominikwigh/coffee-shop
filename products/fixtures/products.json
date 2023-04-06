@@ -12,8 +12,8 @@
       "model": "products.category",
       "pk": 2,
       "fields": {
-        "name": "Coffee Machines",
-        "friendly_name": "Coffee Machines",
+        "name": "Machines",
+        "friendly_name": "Machines",
         "image": ""
       }
     },
