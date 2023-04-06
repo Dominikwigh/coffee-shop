@@ -73,6 +73,7 @@ Here is a list of my User Stories...
 * 27. As a site user i can learn the terms and conditions so that i can understand obligations and responsibilities.
 * 28. As a site user i can find answers general questions so that i don't have to contact the site owner.
 
+
 ## Project Design 
 
 ### Colour Scheme 
@@ -82,10 +83,10 @@ Here is a list of my User Stories...
 ### Wireframes 
 I took a lot of inspiration from Code Institutes Boutique Ado walktrough project. 
 Homepage Mockup:
+> Home page
 ![Wireframe 1](documentation/wireframe1.jpeg)
+> All products page 
 ![Wireframe 2](documentation/wireframe2.jpeg)
-Product page mockup: 
-![Facebook page](documentation/facebook.png)
 
 ### Fonts 
 Google Fonts has been used to provide free fonts for commercial use. The fonts selected have been chosen for differing reasons whilst still complementing each other. 
@@ -96,11 +97,13 @@ The Database schema is as below:
 
 
 ### Web Marketing Startegy 
-
-Building on the insights gained as part of the Design Thinking phase. This project has the business model of Business to customer as the business is selling directly to the end user. 
+Building on the insights gained as part of the Design Thinking phase. This project has the business model of Business to customer as the business is selling directly to the end user.
+Market research was undertaken to decide on the appropriate marketing strategy to promote the Coffee shop brand. For social media marketing, Facebook is still the best option to promote brands to potential customers.
+Users are encouraged to signup for newsletters, discounts and information about the products sold. The signup form is available on the websites footer. Allowing the website admin to send marketing emails through the platform.
+> Product page mockup: 
+![Facebook page](documentation/facebook.png)
 
 #### Search Engine Optimisation (SEO)
-
 SEO is key to driving traffic from a browser search like Google to the website. To help improve the search engine ranking I ensured each web page has it's own title, and the site carries meta tags for a description and keywords which encapsulate the general content and focus of this B2C site.
 
 #### Sitemap.xml / Robots.txt 
