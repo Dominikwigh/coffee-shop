@@ -6,6 +6,18 @@ I have created this full-stack application using the Python, Django framework, H
 
 My website can be found here...[Website](https://coffee-shop2023.herokuapp.com/)
 
+---
+## Table of Contents
+1. [User Experience](#user-experience)
+2. [Features](#project-features)
+3. [Project Design](#project-design)
+4. [Database Schema](#database-schema)
+5. [Software & Libraries](#software--libraries)
+6. [Instructions](#instructions)
+7. [Testing](#testing)
+8. [Deployment](#deployment-of-the-project)
+9. [Credits](#credits)
+---
 ## Goals 
 The goal for this project was to allow users to register and confirm their email address, create a profile that would store user order information, order history, and favourited products.
 
