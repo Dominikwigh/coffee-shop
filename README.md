@@ -262,7 +262,26 @@ The steps to use ElephantSQl are as follows..
 * 5. Click review, and if everything is ok, click on create instance down at the bottom.
 * 6. From the instances section click on instance with the name that was just created.
 * 7. Get the databse URL from the instance details page and copy it, this will be inserted in the Heroku Config vars, as DATABASE_URL. 
-
+### Stripe 
+Stripe is used to handle the checkout process when a payment is made. To use stripe you have to have a account. 
+* 1.  To setup payments follow this
+[tutorial](https://stripe.com/docs/payments/accept-a-payment#web-collect-card-details).
+#### Webhooks
+* 1. To set up a webhook, sign into your stripe account and click 'Developers' located in the top.
+* 2. Click on webhooks and the "add endpoint"
+* 3. On the next page you will need to input the link to your heroku app followed by /checkout/wh/. It should look something like this:
+> https://your-app-name.herokuapp.com/checkout/wh/
+* 4. Then click '+ Select events' and check the 'Select all events' checkbox at the top before clicking 'Add events' at the bottom. Once this is done finish the form by clicking 'Add endpoint'.
+* 5. Your webhook is now created and you should see that it has generated a secret key. You will need this to add to your heroku config vars.
+* 6. Head over to your app in heroku and navigate to the config vars section under settings. You will need the secret key you just generated for your webhook, in addition to your Publishable key and secret key that you can find in the API keys section back in stripe.
+* 7. Add these values under these keys:
+    * STRIPE_PUBLIC_KEY = 'insert your stripe publishable key'
+    * STRIPE_SECRET_KEY = 'insert your secret key'
+    * STRIPE_WH_SECRET = 'insert your webhooks secret key'
+* 8. Finally, back in your setting.py file in django, insert the following near the bottom of the file:
+    * STRIPE_PUBLIC_KEY = os.getenv('STRIPE_PUBLIC_KEY', '')
+    * STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY', '')
+    * STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET', '')
 ### Deployment of the project 
 The site was deployed by following the these steps. 
 * 1. Log in to Heroku or create an account
