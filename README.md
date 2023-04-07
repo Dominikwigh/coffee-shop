@@ -80,10 +80,11 @@ Here is a list of my User Stories...
 
 ### Wireframes 
 I took a lot of inspiration from Code Institutes Boutique Ado walktrough project. 
-Homepage Mockup:
-> Home page
+
+    * Homepage mockup:
 ![Wireframe 1](documentation/wireframe1.jpeg)
-> All products page 
+
+    * All products page mockup:
 ![Wireframe 2](documentation/wireframe2.jpeg)
 
 ### Fonts 
@@ -112,7 +113,7 @@ I have created a sitemap.xml and robot.txt to help search engines locate my webs
 To ensure that the Google engine will check the website sitemap file I have registered the url on the Google Search Console.
 
 #### Newsletter 
-To allow the business to communicate with their customers to promote products and events through digital marketing, i have created a newsletter (One of three original models). The newsletter can be found at the bottom of the site, in the footer. Once the email address is submitted a success message is presented to notify that the user is signed up. If by chance the user tries to sign up agian, the user is notifyied that their email is already signed up.
+To allow the business to communicate with their customers to promote products and events through digital marketing, i have created a newsletter (One of three original models). The newsletter can be found at the bottom of the site, in the footer. Once the email address is submitted a success message is presented to notify that the user is signed up. If by chance the user tries to sign up again, the user is notifyied that their email is already signed up.
 
 #### Coffee shop location 
 I have used Google Maps within an iframe inside the footer to promote the physical store location to show customers how they can physicaly experience the businesses coffee.
@@ -367,7 +368,7 @@ Testing can be found here..
 * [W3Schools](https://www.w3schools.com/) for research on different syntaxes.
 * [Newsletter in django](https://dev.to/shubhamkshatriya25/how-to-build-a-email-newsletter-subscriber-in-django-j2p) was used as a reference to build the newsletter functionality.
 * To build the review functionality i used [Product reviews](https://www.youtube.com/watch?v=Y5vvGQyHtpM) as an reference.
-* The code for the footer was taken from [Mbbootstrap](https://mdbootstrap.com/docs/standard/navigation/footer/examples-and-customization/) with my own modifications.
+* The code for the footer was taken from [Mdbootstrap](https://mdbootstrap.com/docs/standard/navigation/footer/examples-and-customization/) with my own modifications.
 
 #### Images
 * Product images were taken from [kaffekapslen](https://www.kaffekapslen.se/) with permission.
